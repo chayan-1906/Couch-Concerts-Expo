@@ -1,4 +1,6 @@
 import isListEmpty from "./functions/isListEmpty";
+import getCurrentUser from "./functions/getCurrentUser";
+import getCurrentDateTime from "./functions/getCurrentDateTime";
 
 /** test */
 export const base_url = 'https://test.couchconcerts.com';
@@ -23,7 +25,16 @@ export const get_person_by_id_url = (personId) => `${base_url}/person?personId=$
 
 export const delete_person_url = (personId) => `${base_url}/person?personId=${personId}`;
 
-export const discover_url = `${base_url}/discover`;
+export const discover_url = async () => {
+    let currentUser = await getCurrentUser();
+
+    let url = `${base_url}/discover?`;
+    if (currentUser.isLoggedIn) {
+        url = url + `personId=${currentUser.personId}&`;
+    }
+    url = url + `lastMidnight=${getCurrentDateTime()}`;
+    return url;
+};
 
 export const search_url = ({modelsToSearch, searchTerm}) => {
     let url = `${base_url}/search`;

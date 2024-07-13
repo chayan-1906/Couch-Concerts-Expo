@@ -35,7 +35,7 @@ function RootLayout() {
                 <Stack.Screen name='(tabs)' options={{headerShown: false}}/>
                 <Stack.Screen name='+not-found' options={{headerShown: false}}/>
             </Stack>
-            <StatusBar backgroundColor={'black'} style={'inverted'}/>
+            <StatusBar backgroundColor={'black'} style={'auto'}/>
         </CouchConcertsProvider>
     );
 }

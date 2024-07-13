@@ -3,6 +3,7 @@ import React from 'react';
 import {ArtistProfileIcon, GuestProfileIcon, HostProfileIcon, ScoutIcon, SearchIcon} from "../../globals/icons";
 import {View} from "react-native";
 import HeaderTitle from "../../components/HeaderTitle";
+import Colors from "../../constants/Colors";
 
 const searchTitle = 'Search';
 const scoutTitle = 'Scout';
@@ -14,7 +15,7 @@ function TabsLayout() {
     return (
         <Tabs screenOptions={{
             tabBarBackground: () => <View className={'flex-1 bg-primary'}/>,
-            tabBarActiveTintColor: '#FF7B00',
+            tabBarActiveTintColor: Colors.secondary.DEFAULT,
             tabBarInactiveTintColor: 'white',
             headerBackground: () => <View className={'flex-1 bg-primary'}/>,
             // headerShown: false,

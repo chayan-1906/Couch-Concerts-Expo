@@ -19,6 +19,9 @@ import {
     DECLINE_INVITE_BEGIN,
     DECLINE_INVITE_ERROR,
     DECLINE_INVITE_SUCCESS,
+    DISCOVER_BEGIN,
+    DISCOVER_ERROR,
+    DISCOVER_SUCCESS,
     EXPLORE_BEGIN,
     EXPLORE_ERROR,
     EXPLORE_SUCCESS,
@@ -40,9 +43,6 @@ import {
     MY_DETAILS_PERSON_BEGIN,
     MY_DETAILS_PERSON_ERROR,
     MY_DETAILS_PERSON_SUCCESS,
-    SEARCH_BEGIN,
-    SEARCH_ERROR,
-    SEARCH_SUCCESS,
     SEND_OTP_BEGIN,
     SEND_OTP_ERROR,
     SEND_OTP_SUCCESS,
@@ -59,6 +59,7 @@ import {
     create_new_person_url,
     create_new_venue_url,
     decline_invite_url,
+    discover_url,
     explore_url,
     get_artist_by_id_url,
     get_event_by_id_url,
@@ -66,7 +67,6 @@ import {
     get_invite_details_by_invite_id_url,
     get_person_by_id_url,
     my_details_person_url,
-    search_url,
     send_otp_url,
     update_person_url,
     verify_otp_url
@@ -75,7 +75,7 @@ import CouchConcertsReducer from "../reducers/CouchConcertsReducer";
 import {SOMETHING_WENT_WRONG, TRY_AGAIN} from "../globals/GlobalsAndConstants";
 import printInConsole from "../globals/functions/printInConsole";
 import {fetchFromLocalStorage, storeInLocalStorage} from "../globals/functions/async-storage";
-import isStringInvalid from "../globals/functions/isStringInvalid";
+import buildHeader from "../globals/functions/buildHeader";
 
 const initialState = {
     /** SEND OTP */
@@ -118,10 +118,11 @@ const initialState = {
     get_person_by_id_success: false,
     get_person_by_id_error: false,
 
-    /** SEARCH WITH MULTIPLE CATEGORIES */
-    search_loading: false,
-    search_models: [],
-    search_error: false,
+    /** DISCOVER */
+    discover_loading: false,
+    discover_success: false,
+    discover_response: null,
+    discover_error: false,
 
     /** EXPLORE */
     explore_loading: false,
@@ -426,30 +427,26 @@ export const CouchConcertsProvider = ({children}) => {
         }
     }
 
-    /** EXPLORE & SEARCH APIS */
-    const searchApi = async ({modelsToSearch, searchTerm}) => {
-        printInConsole('searchApi called');
+    /** DISCOVER & SEARCH APIS */
+    const discoverApi = async () => {
+        printInConsole('discoverApi called');
         try {
-            dispatch({type: SEARCH_BEGIN});
-            let url = search_url({
-                modelsToSearch: modelsToSearch,
-                ...(fetchFromLocalStorage('isVenue') && {venueId: fetchFromLocalStorage('venues')[0]}),
-                searchTerm: searchTerm,
-            });
-            printInConsole(`searchApi url: ${url}`);
+            dispatch({type: DISCOVER_BEGIN});
+            let url = await discover_url();
+            printInConsole(`discoverApi url: ${url}`);
             const response = await axios.get(url, {
-                headers: buildHeader(isLoggedIn)
+                headers: buildHeader(isLoggedIn),
             });
-            printInConsole(`searchApi response status: ${response.status}`);
-            // printInConsole(`searchApi response body: ${JSON.stringify(response.data)}`);
+            printInConsole(`discoverApi response status: ${response.status}`);
+            // printInConsole(`discoverApi response body: ${JSON.stringify(response.data)}`);
             if (response.status === 200) {
-                let responseData = response.data.searchResults;
-                dispatch({type: SEARCH_SUCCESS, payload: responseData});
+                let responseData = response.data;
+                dispatch({type: DISCOVER_SUCCESS, payload: responseData});
             }
             // return response.data
         } catch (error) {
-            dispatch({type: SEARCH_ERROR, payload: error.message});
-            printInConsole(`searchApi error: ${error.message}`);
+            dispatch({type: DISCOVER_ERROR, payload: error.message});
+            printInConsole(`discoverApi error: ${error.message}`);
         }
     }
 
@@ -768,7 +765,7 @@ export const CouchConcertsProvider = ({children}) => {
                 updatePersonApi,
                 myDetailsPersonApi,
                 getPersonByIdApi,
-                searchApi,
+                discoverApi,
                 exploreApi,
                 getEventByIdApi,
                 getEventByInviteIdApi,

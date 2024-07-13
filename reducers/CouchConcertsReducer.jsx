@@ -17,6 +17,9 @@ import {
     DECLINE_INVITE_BEGIN,
     DECLINE_INVITE_ERROR,
     DECLINE_INVITE_SUCCESS,
+    DISCOVER_BEGIN,
+    DISCOVER_ERROR,
+    DISCOVER_SUCCESS,
     EXPLORE_BEGIN,
     EXPLORE_ERROR,
     EXPLORE_SUCCESS,
@@ -38,9 +41,6 @@ import {
     MY_DETAILS_PERSON_BEGIN,
     MY_DETAILS_PERSON_ERROR,
     MY_DETAILS_PERSON_SUCCESS,
-    SEARCH_BEGIN,
-    SEARCH_ERROR,
-    SEARCH_SUCCESS,
     SEND_OTP_BEGIN,
     SEND_OTP_ERROR,
     SEND_OTP_SUCCESS,
@@ -169,17 +169,19 @@ const CouchConcertsReducer = (state, action) => {
                 get_person_by_id_error: true
             }
 
-        /** SEARCH WITH MULTIPLE CATEGORIES */
-        case SEARCH_BEGIN:
-            return {...state, search_loading: true, search_models: []}
-        case SEARCH_SUCCESS:
+        /** DISCOVER */
+        case DISCOVER_BEGIN:
+            return {...state, discover_loading: true, discover_success: false, discover_error: false}
+        case DISCOVER_SUCCESS:
             return {
                 ...state,
-                search_loading: false,
-                search_models: action.payload,
+                discover_loading: false,
+                discover_success: true,
+                discover_response: action.payload,
+                discover_error: false,
             }
-        case SEARCH_ERROR:
-            return {...state, search_loading: false, search_error: true, search_models: []}
+        case DISCOVER_ERROR:
+            return {...state, discover_loading: false, discover_success: false, discover_error: true, discover_response: null}
 
         /** EXPLORE */
         case EXPLORE_BEGIN:
