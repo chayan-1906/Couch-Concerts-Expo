@@ -1,41 +1,85 @@
 import {Tabs} from 'expo-router';
 import React from 'react';
-import TabBarIcon from '../../components/navigation/TabBarIcon';
+import {ArtistProfileIcon, GuestProfileIcon, HostProfileIcon, ScoutIcon, SearchIcon} from "../../globals/icons";
+import {View} from "react-native";
+import HeaderTitle from "../../components/HeaderTitle";
+
+const searchTitle = 'Search';
+const scoutTitle = 'Scout';
+const guestProfileTitle = 'Guest';
+const artistProfileTitle = 'Artist';
+const hostProfileTitle = 'Host';
 
 function TabsLayout() {
-  return (
-      <Tabs screenOptions={{tabBarActiveTintColor: 'green', headerShown: false}}>
-          <Tabs.Screen
-              name='scout'
-              options={{
-                  title: 'Scout',
-                  tabBarIcon: ({color, focused}) => (
-                      <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color}/>
-                  ),
-              }}
-          />
+    return (
+        <Tabs screenOptions={{
+            tabBarBackground: () => <View className={'flex-1 bg-primary'}/>,
+            tabBarActiveTintColor: '#FF7B00',
+            tabBarInactiveTintColor: 'white',
+            headerBackground: () => <View className={'flex-1 bg-primary'}/>,
+            // headerShown: false,
+        }}>
+            {/** search */}
+            <Tabs.Screen
+                name='explore'
+                options={{
+                    title: searchTitle,
+                    headerTitle: (props) => <HeaderTitle {...props} title={searchTitle}/>,
+                    tabBarIcon: ({color, focused}) => (
+                        <SearchIcon color={color}/>
+                    ),
+                }}
+            />
 
-          <Tabs.Screen
-              name='discover'
-              options={{
-                  title: 'Discover',
-                  tabBarIcon: ({color, focused}) => (
-                      <TabBarIcon name={focused ? 'home' : 'home-outline'} color={color}/>
-                  ),
-              }}
-          />
+            {/** scout */}
+            <Tabs.Screen
+                name='scout'
+                options={{
+                    title: scoutTitle,
+                    headerTitle: (props) => <HeaderTitle {...props} title={scoutTitle}/>,
+                    tabBarIcon: ({color, focused}) => (
+                        <ScoutIcon color={color}/>
+                    ),
+                }}
+            />
 
-          <Tabs.Screen
-              name='index'
-              options={{
-                  title: 'Profile',
-                  tabBarIcon: ({color, focused}) => (
-                      <TabBarIcon name={focused ? 'home' : 'home-outline'} color={color}/>
-                  ),
-              }}
-          />
-    </Tabs>
-  );
+            {/** guest */}
+            <Tabs.Screen
+                name='index'
+                options={{
+                    title: guestProfileTitle,
+                    headerShown: false,
+                    tabBarIcon: ({color, focused}) => (
+                        <GuestProfileIcon color={color}/>
+                    ),
+                }}
+            />
+
+            {/** artists */}
+            <Tabs.Screen
+                name='artist'
+                options={{
+                    title: artistProfileTitle,
+                    headerShown: false,
+                    tabBarIcon: ({color, focused}) => (
+                        <ArtistProfileIcon color={color}/>
+                    ),
+                }}
+            />
+
+            {/** hosts */}
+            <Tabs.Screen
+                name='host'
+                options={{
+                    title: hostProfileTitle,
+                    headerShown: false,
+                    tabBarIcon: ({color, focused}) => (
+                        <HostProfileIcon color={color}/>
+                    ),
+                }}
+            />
+        </Tabs>
+    );
 }
 
 export default TabsLayout;

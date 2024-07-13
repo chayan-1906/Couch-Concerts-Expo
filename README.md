@@ -14,3 +14,6 @@
 ### Axios - https://www.npmjs.com/package/axios
     npm i axios
 
+### Expo SVG - https://docs.expo.dev/ui-programming/using-svgs/
+
+    npx expo install react-native-svg

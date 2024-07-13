@@ -11,3 +11,7 @@ export const discoverPath = '/(tabs)/discover';
 export const scoutPath = '/(tabs)/scout';
 
 export const guestProfilePath = '/(tabs)';
+
+export const artistsProfilePath = '/(tabs)/artists';
+
+export const hostsProfilePath = '/(tabs)/hosts';
