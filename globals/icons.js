@@ -97,3 +97,13 @@ export const DoubleRightArrowIcon = ({color, size}) => {
         </View>
     );
 }
+
+export const ArrowRightIcon = ({color, size}) => {
+    return (
+        <View>
+            <Svg width={size || 24} height={size || 24} viewBox="0 0 24 24">
+                <Path d="M4 11V13H16L10.5 18.5L11.92 19.92L19.84 12L11.92 4.07996L10.5 5.49996L16 11H4Z" fill={color}/>
+            </Svg>
+        </View>
+    );
+}

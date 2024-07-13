@@ -76,6 +76,7 @@ import {SOMETHING_WENT_WRONG, TRY_AGAIN} from "../globals/GlobalsAndConstants";
 import printInConsole from "../globals/functions/printInConsole";
 import {fetchFromLocalStorage, storeInLocalStorage} from "../globals/functions/async-storage";
 import buildHeader from "../globals/functions/buildHeader";
+import {showErrorToast} from "../globals/functions/showToast";
 
 const initialState = {
     /** SEND OTP */
@@ -210,6 +211,7 @@ export const CouchConcertsProvider = ({children}) => {
         } catch (error) {
             dispatch({type: SEND_OTP_ERROR, payload: error.message});
             printInConsole(`sendOtpApi error: ${error.message}`);
+            showErrorToast({title: 'Error', description: SOMETHING_WENT_WRONG});
             // navigate(errorPath)
             // return null
         }

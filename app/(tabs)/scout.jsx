@@ -53,12 +53,11 @@ function ScoutTab() {
                     )
                 }
 
-                {/** events */}
                 {/** events near me */}
                 {
                     events?.map((eventObj) => {
                         return (
-                            <View className={'space-y-2'}>
+                            <View className={'space-y-2'} key={eventObj.title}>
                                 <View className={'flex flex-row justify-between items-center px-4'}>
                                     {/** category title */}
                                     <Text className={'text-2xl text-primary-foreground font-mSemiBold'}>{eventObj.title}</Text>
@@ -71,7 +70,6 @@ function ScoutTab() {
                                 </View>
 
                                 <FlatList
-                                    key={eventObj.title}
                                     data={eventObj.eventList}
                                     renderItem={({item, index}) => <DiscoverCard event={item}/>}
                                     horizontal

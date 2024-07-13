@@ -1,10 +1,11 @@
 import {useFonts} from 'expo-font';
 import {Stack} from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
-import {useEffect} from 'react';
+import {useEffect, useRef} from 'react';
 import 'react-native-reanimated';
 import {CouchConcertsProvider} from "../contexts/CouchConcertsContext";
 import {StatusBar} from "expo-status-bar";
+import Toast from "react-native-toast-message";
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
@@ -16,6 +17,8 @@ function RootLayout() {
         'Montserrat-SemiBold': require('../assets/fonts/Montserrat-SemiBold.ttf'),
         'Montserrat-Bold': require('../assets/fonts/Montserrat-Bold.ttf'),
     });
+
+    const toastRef = useRef(null);
 
     useEffect(() => {
         if (loaded) {
@@ -36,6 +39,7 @@ function RootLayout() {
                 <Stack.Screen name='+not-found' options={{headerShown: false}}/>
             </Stack>
             <StatusBar backgroundColor={'black'} style={'auto'}/>
+            <Toast/>
         </CouchConcertsProvider>
     );
 }
