@@ -75,6 +75,7 @@ import CouchConcertsReducer from "../reducers/CouchConcertsReducer";
 import {SOMETHING_WENT_WRONG, TRY_AGAIN} from "../globals/GlobalsAndConstants";
 import printInConsole from "../globals/functions/printInConsole";
 import {fetchFromLocalStorage, storeInLocalStorage} from "../globals/functions/async-storage";
+import isStringInvalid from "../globals/functions/isStringInvalid";
 
 const initialState = {
     /** SEND OTP */
@@ -743,12 +744,15 @@ export const CouchConcertsProvider = ({children}) => {
 
     /** setIsLoggedIn */
     useEffect(() => {
-        if (authToken || fetchFromLocalStorage('authToken')) {
-            printInConsole(`isLoggedIn - ${isLoggedIn}`);
-            setIsLoggedIn(true);
-        } else {
-            setIsLoggedIn(false);
-        }
+        fetchFromLocalStorage('authToken').then((authToken) => {
+            if (authToken) {
+                setIsLoggedIn(true);
+            } else {
+                setIsLoggedIn(false);
+            }
+
+            printInConsole(`isLoggedIn: ${isLoggedIn}`);
+        });
     }, [authToken]);
 
     return (

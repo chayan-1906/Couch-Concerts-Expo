@@ -11,7 +11,11 @@ export const storeInLocalStorage = async (key, value) => {
 
 export const fetchFromLocalStorage = async (key) => {
     try {
+        // let keys = await AsyncStorage.getAllKeys();
+        // printInConsole(keys);
+
         const fetchedData = await AsyncStorage.getItem(key);
+        printInConsole(`fetchFromLocalStorage: ${fetchedData}`);
         return fetchedData;
     } catch (e) {
         printInConsole(`inside catch of fetchFromLocalStorage: ${e}`);

@@ -1,12 +1,12 @@
-import {Text} from 'react-native';
 import {SafeAreaView} from "react-native-safe-area-context";
+import {Text} from "react-native";
 
-function GuestProfile() {
+function Discover() {
     return (
         <SafeAreaView className={'flex flex-1 justify-center items-center bg-primary'}>
-            <Text className={'text-primary-foreground text-3xl font-mMedium'}>Guest Profile</Text>
+            <Text className={'text-primary-foreground text-3xl font-mMedium'}>Discover</Text>
         </SafeAreaView>
     );
 }
 
-export default GuestProfile;
+export default Discover;

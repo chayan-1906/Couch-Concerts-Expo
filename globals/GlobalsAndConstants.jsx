@@ -1,16 +1,8 @@
-import {base_url} from "./ApiUrls";
-
 /** test */
-export let allowPrint = null;
-export const setAllowPrint = () => {
-    if (base_url === 'https://test.couchconcerts.com') {
-        if (!fetchFromLocalStorage('allowPrint')) {
-            storeInLocalStorage('allowPrint', true);
-        }
-        // printInConsole(`allowPrint - ${fetchFromLocalStorage('allowPrint')}`);
-        allowPrint = fetchFromLocalStorage('allowPrint') === 'true' || fetchFromLocalStorage('allowPrint') === true;
-    }
-}
+export let allowPrint = true;
+
+/** prod */
+// export let allowPrint = false;
 
 /** test cloudFrontKey */
 export let cloudFrontKey = 'd1jnzllnirhwtz';
