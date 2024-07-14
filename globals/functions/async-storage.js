@@ -3,7 +3,7 @@ import printInConsole from "./printInConsole";
 
 export const storeInLocalStorage = async (key, value) => {
     try {
-        await AsyncStorage.setItem(key, value);
+        await AsyncStorage.setItem(key, JSON.stringify(value));
     } catch (e) {
         printInConsole(`inside catch of storeInLocalStorage: ${e}`);
     }
@@ -14,8 +14,12 @@ export const fetchFromLocalStorage = async (key) => {
         // let keys = await AsyncStorage.getAllKeys();
         // printInConsole(keys);
 
-        const fetchedData = await AsyncStorage.getItem(key);
+        let fetchedStringData = await AsyncStorage.getItem(key);
+        printInConsole(`fetchedStringData: ${fetchedStringData}`);
+        let fetchedData;
+        if (fetchedStringData) fetchedData = JSON.parse(fetchedStringData);
         printInConsole(`fetchFromLocalStorage: ${fetchedData}`);
+        printInConsole(`fetchFromLocalStorage: ${typeof fetchedData}`);
         return fetchedData;
     } catch (e) {
         printInConsole(`inside catch of fetchFromLocalStorage: ${e}`);

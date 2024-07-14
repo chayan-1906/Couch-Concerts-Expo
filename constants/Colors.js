@@ -17,6 +17,7 @@ let Colors = {
     'destructive-foreground': '#FFF',
     gray: {
         100: '#CDCDE0',
+        800: '#424242'
     },
 }
 

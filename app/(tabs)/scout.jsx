@@ -1,4 +1,4 @@
-import {FlatList, RefreshControl, ScrollView, Text, TouchableOpacity, View} from "react-native";
+import {ActivityIndicator, FlatList, RefreshControl, ScrollView, Text, TouchableOpacity, View} from "react-native";
 import {useCouchConcertsContext} from "../../contexts/CouchConcertsContext";
 import {DoubleRightArrowIcon} from "../../globals/icons";
 import Colors from "../../constants/Colors";
@@ -19,7 +19,7 @@ function ScoutTab() {
     if (discover_loading) {
         return (
             <View className={'flex flex-1 justify-center items-center bg-primary'}>
-                <Text className={'text-primary-foreground text-3xl font-mMedium'}>Loading...</Text>
+                <ActivityIndicator color={Colors.gray["100"]}/>
             </View>
         );
     }

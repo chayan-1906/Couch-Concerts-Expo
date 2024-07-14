@@ -1,18 +1,20 @@
 import {SafeAreaView} from "react-native-safe-area-context";
 import {ActivityIndicator, Image, KeyboardAvoidingView, Platform, ScrollView, Text, TouchableOpacity, View} from "react-native";
-import {guestProfilePath} from "../../globals/Routes";
 import {useRouter} from "expo-router";
 import {ArrowRightIcon} from "../../globals/icons";
 import {useEffect, useState} from "react";
 import {useCouchConcertsContext} from "../../contexts/CouchConcertsContext";
 import OTPInput from "../../components/inputs/OTPInput";
+import Colors from "../../constants/Colors";
+import {Entypo} from "@expo/vector-icons";
+import {loginPath} from "../../globals/Routes";
 
 function VerifyPage() {
     let router = useRouter();
     const [otp, setOtp] = useState('');
     const [isValid, setIsValid] = useState(false);
 
-    let {phoneNumber, formattedNumber, setFormattedNumber, verify_otp_loading, verify_otp_error, verify_otp_response, person, verifyOtpApi} = useCouchConcertsContext();
+    let {phoneNumber, formattedNumber, setFormattedNumber, verify_otp_loading, verify_otp_error, verify_otp_response, person, verifyOtpApi, sendOtpApi} = useCouchConcertsContext();
 
     function verifyOtp() {
         verifyOtpApi(phoneNumber, otp);
@@ -47,7 +49,7 @@ function VerifyPage() {
                                           onPress={verifyOtp}>
                             {
                                 verify_otp_loading ? (
-                                    <ActivityIndicator color={"#fff"}/>
+                                    <ActivityIndicator color={Colors.gray["800"]}/>
                                 ) : (
                                     <View className={'flex flex-row'}>
                                         <Text className={'text-base text-primary-foreground font-mBold'}>Verify</Text>
@@ -56,13 +58,20 @@ function VerifyPage() {
                                 )
                             }
                         </TouchableOpacity>
+
+                        {/** resend button */}
+                        <TouchableOpacity className={''} onPress={() => sendOtpApi(phoneNumber)}>
+                            <Text className={'font-mSemiBold'}>Resend Code</Text>
+                        </TouchableOpacity>
+
+                        {/** change phone number */}
+                        <TouchableOpacity className={'flex flex-row items-center self-start'} onPress={() => router.replace(loginPath(phoneNumber.slice(-10)))}>
+                            <Entypo name="chevron-left" size={24} color="black"/>
+                            <Text className={'font-mSemiBold'}>Change phone number</Text>
+                        </TouchableOpacity>
                     </View>
                 </ScrollView>
             </KeyboardAvoidingView>
-
-            <TouchableOpacity className={'bg-secondary p-3'} onPress={() => router.replace(guestProfilePath)}>
-                <Text>Go to TabLayout</Text>
-            </TouchableOpacity>
         </SafeAreaView>
     );
 }

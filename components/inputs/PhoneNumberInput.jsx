@@ -3,6 +3,7 @@ import {useRouter} from "expo-router";
 import {countryPickerPath} from "../../globals/Routes";
 import {useCouchConcertsContext} from "../../contexts/CouchConcertsContext";
 import {formatPhoneNumberAsYouType, validatePhone} from "../../globals/functions/validatePhone";
+import Colors from "../../constants/Colors";
 
 function PhoneNumberInput({value, setValue, formattedValue, setFormattedValue, isValid = false, setIsValid}) {
     let router = useRouter();
@@ -27,10 +28,11 @@ function PhoneNumberInput({value, setValue, formattedValue, setFormattedValue, i
 
                 <TextInput
                     className={'flex-1 h-10 font-mMedium'}
+                    defaultValue={value}
                     // value={value}
                     autoFocus
                     placeholder={'Enter your phone number...'}
-                    selectionColor={'black'}
+                    placeholderTextColor={Colors.gray["800"]}
                     keyboardType={'number-pad'}
                     onChangeText={handleChangeText}
                 />

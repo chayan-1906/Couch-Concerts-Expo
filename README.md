@@ -18,8 +18,18 @@
     npx expo install react-native-svg
 
 ### LibPhoneNumber-JS - https://www.npmjs.com/package/libphonenumber-js
-
     npm i libphonenumber-js
 
 ### React Native Toast Message - https://www.npmjs.com/package/react-native-toast-message
     npm i react-native-toast-message
+
+### Twotalltotems React Native OTP Input - https://www.npmjs.com/package/@twotalltotems/react-native-otp-input
+
+    npm i @twotalltotems/react-native-otp-input
+
+# Preview
+
+### SVGs required
+
+**search icon** for search input
+better **right arrow** for login & verify screens

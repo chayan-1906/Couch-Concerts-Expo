@@ -1,5 +1,9 @@
 /** auth routes */
-export const loginPath = '/(auth)/login';
+export const loginPath = (phoneNumber) => {
+    let url = '/(auth)/login';
+    if (phoneNumber) url = url + `?phoneNumber=${phoneNumber}`;
+    return url;
+};
 
 export const verifyPath = '/(auth)/verify';
 

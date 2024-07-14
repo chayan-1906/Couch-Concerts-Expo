@@ -1,17 +1,19 @@
 import {SafeAreaView} from "react-native-safe-area-context";
 import {Image, Keyboard, KeyboardAvoidingView, Platform, ScrollView, Text, TouchableOpacity, View} from "react-native";
-import {useRouter} from "expo-router";
+import {useLocalSearchParams, useRouter} from "expo-router";
 import {scoutPath, verifyPath} from "../../globals/Routes";
 import PhoneNumberInput from "../../components/inputs/PhoneNumberInput";
 import {useEffect, useState} from "react";
 import {ArrowRightIcon} from "../../globals/icons";
 import {useCouchConcertsContext} from "../../contexts/CouchConcertsContext";
 import isStringInvalid from "../../globals/functions/isStringInvalid";
+import {formatPhoneNumberAsYouType} from "../../globals/functions/validatePhone";
 
 function LoginPage() {
     let router = useRouter();
-    const [phone, setPhone] = useState('');
-    const [isValid, setIsValid] = useState(false);
+    let {phoneNumber} = useLocalSearchParams();
+    const [phone, setPhone] = useState(phoneNumber);
+    const [isValid, setIsValid] = useState(formatPhoneNumberAsYouType(phoneNumber));
 
     let {formattedNumber, setFormattedNumber, selectedArea, send_otp_loading, send_otp_success, send_otp_error, sendOtpApi} = useCouchConcertsContext();
 

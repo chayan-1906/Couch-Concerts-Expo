@@ -10,6 +10,8 @@ export function validatePhone(phoneNumber, defaultCountry) {
 }
 
 export function formatPhoneNumberAsYouType(phoneNumber, defaultCountry) {
-    const asYouType = new AsYouType(defaultCountry);
-    return asYouType.input(phoneNumber);
+    if (phoneNumber) {
+        const asYouType = new AsYouType(defaultCountry);
+        return asYouType.input(phoneNumber);
+    } else return false;
 }

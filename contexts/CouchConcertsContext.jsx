@@ -241,10 +241,10 @@ export const CouchConcertsProvider = ({children}) => {
                         setAuthToken(responseData.authToken);
                         await storeInLocalStorage('authToken', responseData.authToken);
                         await storeInLocalStorage('personId', responseData.person.personId);
-                        await storeInLocalStorage('isArtist', responseData.person.isArtist.toString());
-                        await storeInLocalStorage('isVenue', responseData.person.isVenue.toString());
-                        await storeInLocalStorage('artists', responseData.person.artists.toString());
-                        await storeInLocalStorage('venues', responseData.person.venues.toString());
+                        await storeInLocalStorage('isArtist', responseData.person.isArtist);
+                        await storeInLocalStorage('isVenue', responseData.person.isVenue);
+                        await storeInLocalStorage('artists', responseData.person.artists);
+                        await storeInLocalStorage('venues', responseData.person.venues);
                         showSuccessToast({title: 'Success', description: 'You are logged in successfully'});
                         router.replace(guestProfilePath);
                     } else {
