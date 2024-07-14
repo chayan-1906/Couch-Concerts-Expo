@@ -17,9 +17,11 @@ function ScoutTab() {
 
     /** loader */
     if (discover_loading) {
-        return (<View className={'flex flex-1 justify-center items-center bg-primary'}>
-            <Text className={'text-primary-foreground text-3xl font-mMedium'}>Loading...</Text>
-        </View>);
+        return (
+            <View className={'flex flex-1 justify-center items-center bg-primary'}>
+                <Text className={'text-primary-foreground text-3xl font-mMedium'}>Loading...</Text>
+            </View>
+        );
     }
 
     return (

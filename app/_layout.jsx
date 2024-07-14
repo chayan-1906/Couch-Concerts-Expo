@@ -37,8 +37,9 @@ function RootLayout() {
                 <Stack.Screen name='(auth)' options={{headerShown: false}}/>
                 <Stack.Screen name='(tabs)' options={{headerShown: false}}/>
                 <Stack.Screen name='+not-found' options={{headerShown: false}}/>
+                <Stack.Screen name='(modals)/country-picker' options={{headerShown: false, presentation: 'modal'}}/>
             </Stack>
-            <StatusBar backgroundColor={'black'} style={'auto'}/>
+            <StatusBar style={'light'}/>
             <Toast/>
         </CouchConcertsProvider>
     );

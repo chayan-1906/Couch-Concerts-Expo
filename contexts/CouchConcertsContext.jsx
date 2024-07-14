@@ -187,7 +187,7 @@ export const CouchConcertsProvider = ({children}) => {
     const [state, dispatch] = useReducer(CouchConcertsReducer, initialState);
     const [authToken, setAuthToken] = useState('');
     const [isLoggedIn, setIsLoggedIn] = useState(null);
-    const [attendeeCounts, setAttendeeCounts] = useState([]);
+    const [selectedArea, setSelectedArea] = useState({'callingCode': '+1', 'code': 'US', 'flag': 'https://flagsapi.com/US/flat/64.png', 'item': 'United States of America'});
 
     /* APIS --- START */
     /** AUTH APIS */
@@ -717,25 +717,6 @@ export const CouchConcertsProvider = ({children}) => {
         if (refresh) refreshBrowser();
     }
 
-    /** set event attendeeCount */
-    const getAttendeeCountForEvent = (eventId) => {
-        const event = attendeeCounts.find((item) => item.eventId === eventId);
-        return event ? event.quantity : 1;
-    };
-
-    const setAttendeeCountForEvent = (eventId, quantity) => {
-        setAttendeeCounts((prevCounts) => {
-            const index = prevCounts.findIndex((item) => item.eventId === eventId);
-            if (index !== -1) {
-                const updatedCounts = [...prevCounts];
-                updatedCounts[index].quantity = quantity;
-                return updatedCounts;
-            } else {
-                return [...prevCounts, {eventId, quantity}];
-            }
-        });
-    };
-
     /** setAuthToken in state variable */
     useEffect(() => {
         setAuthToken(fetchFromLocalStorage('authToken'));
@@ -760,6 +741,8 @@ export const CouchConcertsProvider = ({children}) => {
                 ...state,
                 isLoggedIn,
                 setIsLoggedIn,
+                selectedArea,
+                setSelectedArea,
                 sendOtpApi,
                 verifyOtpApi,
                 createNewPersonApi,
@@ -778,8 +761,6 @@ export const CouchConcertsProvider = ({children}) => {
                 declineInviteApi,
                 createAcceptInviteApi,
                 // logout,
-                getAttendeeCountForEvent,
-                setAttendeeCountForEvent,
             }}>
             {children}
         </CouchConcertsContext.Provider>

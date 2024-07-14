@@ -107,3 +107,33 @@ export const ArrowRightIcon = ({color, size}) => {
         </View>
     );
 }
+
+export const CloseIcon = ({color, size}) => {
+    return (
+        <View>
+            <Svg width={size || 24} height={size || 24} viewBox="0 0 24 24">
+                <Path d="M21 6.99997L9 19L3.5 13.5L4.91 12.09L9 16.17L19.59 5.58997L21 6.99997Z" fill={color}/>
+            </Svg>
+        </View>
+    );
+}
+
+export const ChevronDownIcon = ({color, size}) => {
+    return (
+        <View>
+            <Svg width={size || 24} height={size || 24} viewBox="0 0 24 24">
+                <Path d="M7.41 8.57996L12 13.17L16.59 8.57996L18 9.99996L12 16L6 9.99996L7.41 8.57996Z" fill={color}/>
+            </Svg>
+        </View>
+    );
+}
+
+export const CheckMarkIcon = ({color, size}) => {
+    return (
+        <View>
+            <Svg width={size || 24} height={size || 24} viewBox="0 0 24 24">
+                <Path d="M21 6.99997L9 19L3.5 13.5L4.91 12.09L9 16.17L19.59 5.58997L21 6.99997Z" fill={color}/>
+            </Svg>
+        </View>
+    );
+}

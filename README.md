@@ -17,10 +17,9 @@
 ### Expo SVG - https://docs.expo.dev/ui-programming/using-svgs/
     npx expo install react-native-svg
 
-### React Native Phone Number Input - https://www.npmjs.com/package/react-native-phone-number-input
+### LibPhoneNumber-JS - https://www.npmjs.com/package/libphonenumber-js
 
-    npm i react-native-phone-number-input
+    npm i libphonenumber-js
 
 ### React Native Toast Message - https://www.npmjs.com/package/react-native-toast-message
-
     npm i react-native-toast-message

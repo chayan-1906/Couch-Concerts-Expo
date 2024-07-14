@@ -5,6 +5,8 @@ export const verifyPath = '/(auth)/verify';
 
 export const registerPath = '/(auth)/register';
 
+export const countryPickerPath = '/(modals)/country-picker';
+
 /** tab routes */
 export const discoverPath = '/(tabs)/discover';
 
