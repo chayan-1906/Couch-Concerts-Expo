@@ -15,7 +15,7 @@ function GuestProfile() {
 
             <TouchableOpacity onPress={() => {
                 logout();
-                router.replace(loginPath);
+                router.replace(loginPath());
             }}>
                 <MaterialIcons name="logout" size={24} color="white"/>
             </TouchableOpacity>

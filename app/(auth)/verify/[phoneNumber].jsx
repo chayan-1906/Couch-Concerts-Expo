@@ -1,20 +1,21 @@
 import {SafeAreaView} from "react-native-safe-area-context";
 import {ActivityIndicator, Image, KeyboardAvoidingView, Platform, ScrollView, Text, TouchableOpacity, View} from "react-native";
-import {useRouter} from "expo-router";
-import {ArrowRightIcon} from "../../globals/icons";
+import {useLocalSearchParams, useRouter} from "expo-router";
+import {ArrowRightIcon} from "../../../globals/icons";
 import {useEffect, useState} from "react";
-import {useCouchConcertsContext} from "../../contexts/CouchConcertsContext";
-import OTPInput from "../../components/inputs/OTPInput";
-import Colors from "../../constants/Colors";
+import {useCouchConcertsContext} from "../../../contexts/CouchConcertsContext";
+import OTPInput from "../../../components/inputs/OTPInput";
+import Colors from "../../../constants/Colors";
 import {Entypo} from "@expo/vector-icons";
-import {loginPath} from "../../globals/Routes";
+import {loginPath} from "../../../globals/Routes";
 
 function VerifyPage() {
     let router = useRouter();
+    let {phoneNumber} = useLocalSearchParams();
     const [otp, setOtp] = useState('');
     const [isValid, setIsValid] = useState(false);
 
-    let {phoneNumber, formattedNumber, setFormattedNumber, verify_otp_loading, verify_otp_error, verify_otp_response, person, verifyOtpApi, sendOtpApi} = useCouchConcertsContext();
+    let {formattedNumber, setFormattedNumber, verify_otp_loading, verify_otp_error, verify_otp_response, person, verifyOtpApi, sendOtpApi} = useCouchConcertsContext();
 
     function verifyOtp() {
         verifyOtpApi(phoneNumber, otp);
@@ -33,7 +34,7 @@ function VerifyPage() {
                             contentContainerStyle={{justifyContent: 'center', alignItems: 'center', paddingHorizontal: 20, gap: 16}}>
                     {/** app logo */}
                     <View className={'p-3'}>
-                        <Image source={require('../../assets/images/logo_with_tag.png')} resizeMode={'contain'} className={'w-48 h-52'}/>
+                        <Image source={require('../../../assets/images/logo_with_tag.png')} resizeMode={'contain'} className={'w-48 h-52'}/>
                     </View>
 
                     {/** card-content */}

@@ -26,7 +26,7 @@ function ScoutTab() {
 
     return (
         <View className={'flex flex-1 bg-primary'}>
-            <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{}} className={'space-y-5'}
+            <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{paddingBottom: 16}} className={'space-y-5'}
                         refreshControl={<RefreshControl refreshing={discover_loading} onRefresh={discoverApi}/>}>
                 {/** artists trending */}
                 {

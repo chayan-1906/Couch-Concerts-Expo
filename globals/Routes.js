@@ -5,7 +5,7 @@ export const loginPath = (phoneNumber) => {
     return url;
 };
 
-export const verifyPath = '/(auth)/verify';
+export const verifyPath = (phoneNumber) => `/(auth)/verify/${phoneNumber}`;
 
 export const registerPath = '/(auth)/register';
 

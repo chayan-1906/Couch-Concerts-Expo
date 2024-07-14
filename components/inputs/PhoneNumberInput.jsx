@@ -11,7 +11,7 @@ function PhoneNumberInput({value, setValue, formattedValue, setFormattedValue, i
 
     const handleChangeText = (text) => {
         setValue(text);
-        setPhoneNumber(`${selectedArea?.callingCode}${text}`);
+        // setPhoneNumber(`${selectedArea?.callingCode}${text}`);
         setFormattedValue(`${selectedArea?.callingCode} ${formatPhoneNumberAsYouType(text, selectedArea?.code)}`);
         setIsValid(validatePhone(text, selectedArea?.code));
     };

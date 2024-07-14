@@ -19,7 +19,7 @@ function LoginPage() {
 
     function handleClick() {
         sendOtpApi(`${selectedArea?.callingCode}${phone}`);
-        router.replace(verifyPath);
+        router.replace(verifyPath(`${selectedArea?.callingCode}${phone}`));
     }
 
     useEffect(() => {

@@ -191,7 +191,7 @@ export const CouchConcertsProvider = ({children}) => {
     const [isLoggedIn, setIsLoggedIn] = useState(null);
 
     /** login stuff */
-    const [phoneNumber, setPhoneNumber] = useState('');
+        // const [phoneNumber, setPhoneNumber] = useState('');
     const [formattedNumber, setFormattedNumber] = useState('');
     const [selectedArea, setSelectedArea] = useState({'callingCode': '+1', 'code': 'US', 'flag': 'https://flagsapi.com/US/flat/64.png', 'item': 'United States of America'});
 
@@ -254,6 +254,9 @@ export const CouchConcertsProvider = ({children}) => {
                         // router.replace(registerPath(phoneNumber, {authToken: responseData.authToken}));
                         // }, 500);
                     }
+                } else {
+                    /** go to register page to update person */
+                    showInfoToast({title: 'Success', description: 'GO TO REGISTER PAGE'});
                 }
                 dispatch({type: VERIFY_OTP_SUCCESS, payload: responseData});
             }
@@ -744,8 +747,8 @@ export const CouchConcertsProvider = ({children}) => {
                 ...state,
                 isLoggedIn,
                 setIsLoggedIn,
-                phoneNumber,
-                setPhoneNumber,
+                // phoneNumber,
+                // setPhoneNumber,
                 formattedNumber,
                 setFormattedNumber,
                 selectedArea,
