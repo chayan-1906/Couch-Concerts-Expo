@@ -2,14 +2,16 @@ import {Image, Text, TextInput, TouchableOpacity, View} from "react-native";
 import {useRouter} from "expo-router";
 import {countryPickerPath} from "../../globals/Routes";
 import {useCouchConcertsContext} from "../../contexts/CouchConcertsContext";
-import {validatePhone} from "../../globals/functions/validatePhone";
+import {formatPhoneNumberAsYouType, validatePhone} from "../../globals/functions/validatePhone";
 
 function PhoneNumberInput({value, setValue, formattedValue, setFormattedValue, isValid = false, setIsValid}) {
     let router = useRouter();
-    let {selectedArea, setSelectedArea} = useCouchConcertsContext();
+    let {selectedArea, setSelectedArea, phoneNumber, setPhoneNumber} = useCouchConcertsContext();
 
     const handleChangeText = (text) => {
-        // setValue(text);
+        setValue(text);
+        setPhoneNumber(`${selectedArea?.callingCode}${text}`);
+        setFormattedValue(`${selectedArea?.callingCode} ${formatPhoneNumberAsYouType(text, selectedArea?.code)}`);
         setIsValid(validatePhone(text, selectedArea?.code));
     };
 
@@ -26,14 +28,13 @@ function PhoneNumberInput({value, setValue, formattedValue, setFormattedValue, i
                 <TextInput
                     className={'flex-1 h-10 font-mMedium'}
                     // value={value}
+                    autoFocus
                     placeholder={'Enter your phone number...'}
                     selectionColor={'black'}
                     keyboardType={'number-pad'}
                     onChangeText={handleChangeText}
                 />
             </View>
-            {/*{renderAreasCodeModal()}*/}
-            {!isValid && (<Text className={'text-primary font-mMedium text-start'}>Invalid Phone</Text>)}
         </View>
     );
 }

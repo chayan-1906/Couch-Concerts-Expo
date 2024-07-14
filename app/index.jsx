@@ -1,11 +1,19 @@
 import {SafeAreaView} from "react-native-safe-area-context";
 import {Text} from "react-native";
 import {useCouchConcertsContext} from "../contexts/CouchConcertsContext";
-import {Redirect} from "expo-router";
-import {loginPath} from "../globals/Routes";
+import {Redirect, useRouter} from "expo-router";
+import {guestProfilePath, loginPath} from "../globals/Routes";
+import {useEffect} from "react";
 
 function Splash() {
     let {isLoggedIn} = useCouchConcertsContext();
+    let router = useRouter();
+
+    useEffect(() => {
+        if (isLoggedIn) {
+            setTimeout(() => router.replace(guestProfilePath), 2000);
+        }
+    }, [isLoggedIn]);
 
     if (isLoggedIn === false) return <Redirect href={loginPath}/>
 

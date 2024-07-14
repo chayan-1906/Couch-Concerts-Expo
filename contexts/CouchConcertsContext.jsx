@@ -74,9 +74,11 @@ import {
 import CouchConcertsReducer from "../reducers/CouchConcertsReducer";
 import {SOMETHING_WENT_WRONG, TRY_AGAIN} from "../globals/GlobalsAndConstants";
 import printInConsole from "../globals/functions/printInConsole";
-import {fetchFromLocalStorage, storeInLocalStorage} from "../globals/functions/async-storage";
+import {clearLocalStorage, fetchFromLocalStorage, storeInLocalStorage} from "../globals/functions/async-storage";
 import buildHeader from "../globals/functions/buildHeader";
-import {showErrorToast} from "../globals/functions/showToast";
+import {showErrorToast, showInfoToast, showSuccessToast} from "../globals/functions/showToast";
+import {router} from "expo-router";
+import {guestProfilePath} from "../globals/Routes";
 
 const initialState = {
     /** SEND OTP */
@@ -187,6 +189,10 @@ export const CouchConcertsProvider = ({children}) => {
     const [state, dispatch] = useReducer(CouchConcertsReducer, initialState);
     const [authToken, setAuthToken] = useState('');
     const [isLoggedIn, setIsLoggedIn] = useState(null);
+
+    /** login stuff */
+    const [phoneNumber, setPhoneNumber] = useState('');
+    const [formattedNumber, setFormattedNumber] = useState('');
     const [selectedArea, setSelectedArea] = useState({'callingCode': '+1', 'code': 'US', 'flag': 'https://flagsapi.com/US/flat/64.png', 'item': 'United States of America'});
 
     /* APIS --- START */
@@ -195,7 +201,7 @@ export const CouchConcertsProvider = ({children}) => {
         printInConsole('sendOtpApi called');
         try {
             dispatch({type: SEND_OTP_BEGIN});
-            printInConsole(`sendOtpApi url: ${send_otp_url}`);
+            printInConsole(`sendOtpApi url: ${send_otp_url} - ${phoneNumber}`);
             const response = await axios.post(send_otp_url, {
                 'phoneNumber': phoneNumber,
             }, {
@@ -207,13 +213,10 @@ export const CouchConcertsProvider = ({children}) => {
                 const responseData = response.data;
                 dispatch({type: SEND_OTP_SUCCESS, payload: responseData});
             }
-            // return response.data
         } catch (error) {
             dispatch({type: SEND_OTP_ERROR, payload: error.message});
-            printInConsole(`sendOtpApi error: ${error.message}`);
+            printInConsole(`sendOtpApi error: ${JSON.stringify(error)}`);
             showErrorToast({title: 'Error', description: SOMETHING_WENT_WRONG});
-            // navigate(errorPath)
-            // return null
         }
     }
 
@@ -221,7 +224,7 @@ export const CouchConcertsProvider = ({children}) => {
         printInConsole('verifyOtpApi called');
         try {
             dispatch({type: VERIFY_OTP_BEGIN});
-            printInConsole(`verifyOtpApi url: ${verify_otp_url}`);
+            printInConsole(`verifyOtpApi url: ${verify_otp_url} - ${phoneNumber}`);
             printInConsole(`otp: ${otp}`);
             const response = await axios.post(verify_otp_url, {
                 'receivingAddress': phoneNumber,
@@ -230,7 +233,7 @@ export const CouchConcertsProvider = ({children}) => {
                 headers: {'Content-Type': 'application/json'},
             });
             printInConsole(`verifyOtpApi response status: ${response.status}`);
-            printInConsole(`verifyOtpApi response body: ${JSON.stringify(response.data)}`);
+            // printInConsole(`verifyOtpApi response body: ${JSON.stringify(response.data)}`);
             if (response.status === 200) {
                 const responseData = response.data;
                 if (response.data.flow.toLowerCase() === 'login' && response.data.authToken && response.data.person?.personId) {
@@ -238,12 +241,15 @@ export const CouchConcertsProvider = ({children}) => {
                         setAuthToken(responseData.authToken);
                         await storeInLocalStorage('authToken', responseData.authToken);
                         await storeInLocalStorage('personId', responseData.person.personId);
-                        await storeInLocalStorage('isArtist', responseData.person.isArtist);
-                        await storeInLocalStorage('isVenue', responseData.person.isVenue);
-                        await storeInLocalStorage('artists', responseData.person.artists);
-                        await storeInLocalStorage('venues', responseData.person.venues);
-                        // toast({title: 'Success!', description: 'You are now logged in'});
+                        await storeInLocalStorage('isArtist', responseData.person.isArtist.toString());
+                        await storeInLocalStorage('isVenue', responseData.person.isVenue.toString());
+                        await storeInLocalStorage('artists', responseData.person.artists.toString());
+                        await storeInLocalStorage('venues', responseData.person.venues.toString());
+                        showSuccessToast({title: 'Success', description: 'You are logged in successfully'});
+                        router.replace(guestProfilePath);
                     } else {
+                        /** go to register page to update person */
+                        showInfoToast({title: 'Success', description: 'GO TO REGISTER PAGE'});
                         // setTimeout(() => {
                         // router.replace(registerPath(phoneNumber, {authToken: responseData.authToken}));
                         // }, 500);
@@ -251,7 +257,6 @@ export const CouchConcertsProvider = ({children}) => {
                 }
                 dispatch({type: VERIFY_OTP_SUCCESS, payload: responseData});
             }
-            // return response.data;
         } catch (error) {
             dispatch({type: VERIFY_OTP_ERROR, payload: error});
             printInConsole(`verifyOtpApi error: ${error.message}`);
@@ -708,13 +713,11 @@ export const CouchConcertsProvider = ({children}) => {
 
     /* APIS --- END */
 
-    const logout = ({refresh = true}) => {
-        printInConsole(`refresh - ${refresh}`)
-        clearLocalStorage();
+    const logout = async () => {
+        await clearLocalStorage();
         setAuthToken('');
         setIsLoggedIn(false);
-        if (refresh) toast({title: 'Success!', description: 'You are now logged out'});
-        if (refresh) refreshBrowser();
+        showSuccessToast({title: 'Success!', description: 'You are now logged out'});
     }
 
     /** setAuthToken in state variable */
@@ -741,6 +744,10 @@ export const CouchConcertsProvider = ({children}) => {
                 ...state,
                 isLoggedIn,
                 setIsLoggedIn,
+                phoneNumber,
+                setPhoneNumber,
+                formattedNumber,
+                setFormattedNumber,
                 selectedArea,
                 setSelectedArea,
                 sendOtpApi,
@@ -760,7 +767,7 @@ export const CouchConcertsProvider = ({children}) => {
                 acceptInviteApi,
                 declineInviteApi,
                 createAcceptInviteApi,
-                // logout,
+                logout,
             }}>
             {children}
         </CouchConcertsContext.Provider>
