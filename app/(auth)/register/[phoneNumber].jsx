@@ -1,6 +1,6 @@
 import {SafeAreaView} from "react-native-safe-area-context";
 import {Text, TouchableOpacity} from "react-native";
-import {guestProfilePath} from "../../globals/Routes";
+import {guestProfilePath} from "../../../globals/Routes";
 
 function RegisterPage() {
     return (

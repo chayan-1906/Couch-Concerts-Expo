@@ -1,9 +1,9 @@
 import {Text, TouchableOpacity} from 'react-native';
 import {SafeAreaView} from "react-native-safe-area-context";
 import {MaterialIcons} from "@expo/vector-icons";
-import {useCouchConcertsContext} from "../../contexts/CouchConcertsContext";
+import {useCouchConcertsContext} from "../../../../contexts/CouchConcertsContext";
 import {useRouter} from "expo-router";
-import {loginPath} from "../../globals/Routes";
+import {loginPath} from "../../../../globals/Routes";
 
 function GuestProfile() {
     let {logout} = useCouchConcertsContext();

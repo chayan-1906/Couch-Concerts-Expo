@@ -7,7 +7,7 @@ export const loginPath = (phoneNumber) => {
 
 export const verifyPath = (phoneNumber) => `/(auth)/verify/${phoneNumber}`;
 
-export const registerPath = '/(auth)/register';
+export const registerPath = (phoneNumber) => `/(auth)/register/${phoneNumber}`;
 
 export const countryPickerPath = '/(modals)/country-picker';
 

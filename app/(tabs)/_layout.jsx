@@ -26,9 +26,7 @@ function TabsLayout() {
                 options={{
                     title: searchTitle,
                     headerTitle: (props) => <HeaderTitle {...props} title={searchTitle}/>,
-                    tabBarIcon: ({color, focused}) => (
-                        <SearchIcon color={color}/>
-                    ),
+                    tabBarIcon: ({color, focused}) => <SearchIcon color={color}/>,
                 }}
             />
 
@@ -38,21 +36,18 @@ function TabsLayout() {
                 options={{
                     title: scoutTitle,
                     headerTitle: (props) => <HeaderTitle {...props} title={scoutTitle}/>,
-                    tabBarIcon: ({color, focused}) => (
-                        <ScoutIcon color={color}/>
-                    ),
+                    tabBarIcon: ({color, focused}) => <ScoutIcon color={color}/>,
                 }}
             />
 
             {/** guest */}
             <Tabs.Screen
-                name='index'
+                // name='index'
+                name='(profile)'
                 options={{
                     title: guestProfileTitle,
                     headerShown: false,
-                    tabBarIcon: ({color, focused}) => (
-                        <GuestProfileIcon color={color}/>
-                    ),
+                    tabBarIcon: ({color, focused}) => <GuestProfileIcon color={color}/>,
                 }}
             />
 
@@ -62,9 +57,7 @@ function TabsLayout() {
                 options={{
                     title: artistProfileTitle,
                     headerShown: false,
-                    tabBarIcon: ({color, focused}) => (
-                        <ArtistProfileIcon color={color}/>
-                    ),
+                    tabBarIcon: ({color, focused}) => <ArtistProfileIcon color={color}/>,
                 }}
             />
 
@@ -74,9 +67,7 @@ function TabsLayout() {
                 options={{
                     title: hostProfileTitle,
                     headerShown: false,
-                    tabBarIcon: ({color, focused}) => (
-                        <HostProfileIcon color={color}/>
-                    ),
+                    tabBarIcon: ({color, focused}) => <HostProfileIcon color={color}/>,
                 }}
             />
         </Tabs>
