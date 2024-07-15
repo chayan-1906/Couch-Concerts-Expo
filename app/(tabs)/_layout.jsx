@@ -4,6 +4,7 @@ import {ArtistProfileIcon, GuestProfileIcon, HostProfileIcon, ScoutIcon, SearchI
 import {View} from "react-native";
 import HeaderTitle from "../../components/HeaderTitle";
 import Colors from "../../constants/Colors";
+import {useCouchConcertsContext} from "../../contexts/CouchConcertsContext";
 
 const searchTitle = 'Search';
 const scoutTitle = 'Scout';
@@ -12,6 +13,8 @@ const artistProfileTitle = 'Artist';
 const hostProfileTitle = 'Host';
 
 function TabsLayout() {
+    let {isLoggedIn} = useCouchConcertsContext();
+
     return (
         <Tabs screenOptions={{
             tabBarBackground: () => <View className={'flex-1 bg-primary'}/>,
@@ -42,8 +45,7 @@ function TabsLayout() {
 
             {/** guest */}
             <Tabs.Screen
-                // name='index'
-                name='(profile)'
+                name='(profile)/(guest)'
                 options={{
                     title: guestProfileTitle,
                     headerShown: false,
@@ -51,9 +53,9 @@ function TabsLayout() {
                 }}
             />
 
-            {/** artists */}
+            {/** artist */}
             <Tabs.Screen
-                name='artist'
+                name='(profile)/(artist)'
                 options={{
                     title: artistProfileTitle,
                     headerShown: false,
@@ -61,9 +63,9 @@ function TabsLayout() {
                 }}
             />
 
-            {/** hosts */}
+            {/** host */}
             <Tabs.Screen
-                name='host'
+                name='(profile)/(host)'
                 options={{
                     title: hostProfileTitle,
                     headerShown: false,
