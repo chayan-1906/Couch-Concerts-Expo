@@ -17,8 +17,8 @@ function PhoneNumberInput({value, setValue, formattedValue, setFormattedValue, i
     };
 
     return (
-        <View className={'flex flex-col'}>
-            <View className={'flex flex-row border-gray-100 border h-12 items-center rounded-lg p-2 mb-2 w-72 space-x-3'}>
+        <View className={'flex flex-col w-full'}>
+            <View className={'flex flex-row border-gray-100 border h-12 items-center rounded-lg p-2 mb-2 w-full space-x-3'}>
                 <TouchableOpacity className={'flex flex-row w-22 h-12'} onPress={() => router.push(countryPickerPath)}>
                     <View className={'flex flex-row justify-center items-center space-x-1'}>
                         <Image source={{uri: selectedArea?.flag}} className={'h-10 w-10'}/>

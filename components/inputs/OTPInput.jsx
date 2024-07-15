@@ -1,29 +1,24 @@
-import OTPInputView from "@twotalltotems/react-native-otp-input";
-import {StyleSheet} from "react-native";
+import Colors from "../../constants/Colors";
+import {OtpInput} from "react-native-otp-entry";
 
 function OTPInput({otp, setOtp, isValid, setIsValid}) {
     return (
-        <OTPInputView
-            style={{height: 50}}
-            pinCount={6}
-            autoFocusOnLoad
-            codeInputFieldStyle={styles.border}
-            onCodeFilled={(code => {
-                if (code.length === 6) {
-                    setIsValid(true);
-                    setOtp(code);
-                } else {
-                    setIsValid(false);
-                }
-            })}
+        <OtpInput
+            numberOfDigits={6}
+            focusColor={Colors.primary}
+            onFilled={(text) => {
+                setOtp(text);
+                if (text.length === 6) setIsValid(true);
+                else setIsValid(false);
+            }}
+            textInputProps={{accessibilityLabel: 'One-Time Password'}}
+            theme={{
+                pinCodeContainerStyle: {borderRadius: 8},
+                focusedPinCodeContainerStyle: {borderRadius: 12, borderWidth: 2},
+                pinCodeTextStyle: {fontFamily: 'Montserrat-Regular'}
+            }}
         />
     );
 }
 
 export default OTPInput;
-
-const styles = StyleSheet.create({
-    border: {
-        borderRadius: 6,
-    }
-});

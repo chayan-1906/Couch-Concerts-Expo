@@ -101,8 +101,15 @@ export const DoubleRightArrowIcon = ({color, size}) => {
 export const ArrowRightIcon = ({color, size}) => {
     return (
         <View>
-            <Svg width={size || 24} height={size || 24} viewBox="0 0 24 24">
-                <Path d="M4 11V13H16L10.5 18.5L11.92 19.92L19.84 12L11.92 4.07996L10.5 5.49996L16 11H4Z" fill={color}/>
+            {/*<Svg width={size || 24} height={size || 24} viewBox="0 0 24 24" className={'lucide lucide-move-right'}>
+                <Path d="M18 8L22 12L18 16" fill={color}/>
+                <Path d="M2 12H22" fill={color}/>
+            </Svg>*/}
+
+            <Svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke={color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 className="lucide lucide-move-right">
+                <Path d="M18 8L22 12L18 16"/>
+                <Path d="M2 12H22"/>
             </Svg>
         </View>
     );

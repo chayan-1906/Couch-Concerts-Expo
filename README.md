@@ -23,13 +23,14 @@
 ### React Native Toast Message - https://www.npmjs.com/package/react-native-toast-message
     npm i react-native-toast-message
 
-### Twotalltotems React Native OTP Input - https://www.npmjs.com/package/@twotalltotems/react-native-otp-input
+### React Native OTP Entry - https://www.npmjs.com/package/react-native-otp-entry
 
-    npm i @twotalltotems/react-native-otp-input
+    npm i react-native-otp-entry
+
+### Lottie - https://docs.expo.dev/versions/latest/sdk/lottie/
+
+    npx expo install lottie-react-native
 
 # Preview
 
 ### SVGs required
-
-**search icon** for search input
-better **right arrow** for login & verify screens

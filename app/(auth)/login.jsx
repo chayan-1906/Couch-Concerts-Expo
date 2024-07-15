@@ -46,14 +46,14 @@ function LoginPage() {
                         </View>
 
                         <TouchableOpacity className={`flex flex-row w-full justify-center ${isValid ? 'bg-primary' : 'bg-gray-100'} rounded-lg py-3`} disabled={!isValid} onPress={handleClick}>
-                            <Text className={'text-base text-primary-foreground font-mBold'}>Send Code</Text>
+                            <Text className={'text-base text-primary-foreground font-mBold mr-2'}>Send Code</Text>
                             <ArrowRightIcon color={'white'} size={20}/>
                         </TouchableOpacity>
                     </View>
 
                     {/** continue without logging in */}
                     <TouchableOpacity className={'flex flex-row p-3 w-full justify-center items-center'} onPress={() => router.replace(scoutPath)}>
-                        <Text className={'text-primary-foreground font-mSemiBold'}>Continue without logging in</Text>
+                        <Text className={'text-primary-foreground font-mSemiBold mr-2'}>Continue without logging in</Text>
                         <ArrowRightIcon color={'white'} size={20}/>
                     </TouchableOpacity>
                 </ScrollView>

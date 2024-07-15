@@ -53,7 +53,7 @@ function VerifyPage() {
                                     <ActivityIndicator color={Colors.gray["800"]}/>
                                 ) : (
                                     <View className={'flex flex-row'}>
-                                        <Text className={'text-base text-primary-foreground font-mBold'}>Verify</Text>
+                                        <Text className={'text-base text-primary-foreground font-mBold mr-2'}>Verify</Text>
                                         <ArrowRightIcon color={'white'} size={20}/>
                                     </View>
                                 )

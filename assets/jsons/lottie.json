@@ -1,0 +1,5098 @@
+{
+  "v": "5.12.2",
+  "fr": 30,
+  "ip": 0,
+  "op": 450,
+  "w": 1920,
+  "h": 1080,
+  "nm": "Couch Concerts Logo Original",
+  "ddd": 0,
+  "assets": [
+    {
+      "id": "image_0",
+      "w": 17,
+      "h": 48,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAwCAMAAADAQ2FbAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAANlBMVEVHcEz/SGn/QnX/SWb/RW//S2X/Q3H/Tl3/Rm3/TGf/Rm7/R2v/Q3L/Tl3/Qnb/TGD/S2P/UFkzw1WXAAAACnRSTlMAWrj/2XoskpETfT1ntgAAAIRJREFUKM+t00EOgCAMRNGiFayK2vtf1kqEMNGFIXxWvszSElnigjUJ5SZ9Cg8ELbHAIq9EIU/kUGwUIsQoGlVfm/hTDqxZTqxZRuxL5kZZ4Zms2C04+t78kAXrKRs8kw3rJLv9qjs0EHkUZ7/vUAOno6jFpysQLgufT8Ul4+p47mH5ugCgdx+zvJRm8AAAAABJRU5ErkJggg==",
+      "e": 1
+    },
+    {
+      "id": "image_1",
+      "w": 17,
+      "h": 118,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAB2CAMAAAAZQogqAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAATlBMVEVHcEz/UVf/L6D/UFn/S2L/P4H/LaT/LaD/OIn/QnX/KKz/UFr/QnX/SWj/M5X/No7/T1v/TGH/Rm7/MJv/OYj/P3z/PIL/LaH/K6b/KKtOP8TTAAAADHRSTlMAkV53wRY0wMDA66CcVZxhAAABKUlEQVRIx62W0a6CMBBEK1pQLNCCgP7/j97dWmSnLMkNYaZIPJ6Jj2AMxRYXytWaJVefckng6X+5WTAWy3pImSneP425IQkb4ndIWBuYBBFCTDw0c0I4lTRQ1WkwTHCmOyeRvpEl8gCjj6SHbFZEHn3unEccVHUcZrNy0aH7cvVOXZ1GRmh0JGAyUtx6MeHfvodhckSOkvs4Kc4kyg5KcQWhFX3KGTlT7pxHXlAiLwwTlHTnGOmgqtNhmOBMdw6RtuvkiY4AbXTovp42EvG9S2TJ6qQvMcZULQZXe07VDlDVGTCb1aA6B8kMVZ0ZwwRnuvMf8oaqzhvzJbM4e05GPprzEWUHE4l0KmMKVAp6VNcS1Pw4L3OFdnUG6BGf/q8qfy8KxpaU9OLwB+eWe650vzzuAAAAAElFTkSuQmCC",
+      "e": 1
+    },
+    {
+      "id": "image_2",
+      "w": 17,
+      "h": 235,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAADrCAMAAAC4uo23AAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAY1BMVEVHcEz/U13/G8b/HMX/NJL/JLP/OJX/ZSz/VU7/RXH/bCD/ayH/HcL/aST/YDf/W0H/ZS7/V0r/T1v/QXf/Rm3/SmT/JLT/PYD/KKz/U1L/K6T/Mpb/No//OYj/ILz/L53/HcOR9wBaAAAADXRSTlMAHWnokZFLkpGRedjQJb1DxgAAAphJREFUWMO1mOtiokAMRr3US7sLgoBQsOj7P2Vzn0Rot6v2S4aZOZzwXxcLyHK7g7wtF5q3TLITsMssf5bBUGuZhYC0jWQXvkJfmpDsl0mR7oU4hRU7ReabiVVh37EhcgpnFEWBBHdMRoscVSYOI3YK/UiRSMpTSe6KSO6M/EvHF5A8h0NaRAppeiDRW3QUsiMvvRPym2SfH0KJc8jtOe/gbgCdwwFO9MA6gCPvFLFDEonqGKOpfXotzl6P+YQcHielW0hKPNIDOzlK2Sn1yk5ZwokWbqV3SnqwwyGFiAjlxGEYph4l71bYwSFEDqR8V4+nSjcJBN/ThRsJDwl4Vyc92ElMic/95BiKnaNrIPzKGgkha3OsxEkKE2YSc+JUyN2kuSWvxyaUTjWyZMoVOq+0J4QOg0aWfFkgHtihY3KaGHHEYjJ1fkxqWUJqvFBjMZGLI54BoTMD3MjRC3bNDqepxanFqZPjlEjqR0kV6kvHWr5TpaapyjtVhaQObN7hEz/FCTFST0j1v6SFvaU2pxVAOzsJtEjayheRgFp2Wl1C7E5hogxLScocebnLeWk/QomjVyEfXkGCQCGEHT7zTk6IkVbFb5x/kHOoWeccgySOzTvPI4NrJENAQAbIOTWSM5W0kFsn5pnkEgpIBEQgQ1rqGLuIoxkCGXi7cb4hvWsgfQBANgH04qTueyQeXYBs+hiZ4gmZmjo/JZ0rJB0iW+SYIE7HR4VEMH0n4e/Q/dbpnHM3ObmF5IRHemAz8QXkhOlOGnNMUidJRk7PICOdRyMjXkbdmPgCEgGRmIkzzjv3kqtrINfx6hE614lzBZTCU1eepGLH5S/8fo9kAz/y1x6s8Y+AIK3ov4JVnMFsZXC9tb8YFssVRO6fTJgoMu9Ynb0AAAAASUVORK5CYII=",
+      "e": 1
+    },
+    {
+      "id": "image_3",
+      "w": 17,
+      "h": 235,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAADrCAMAAAC4uo23AAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAY1BMVEVHcEz/KK3/XUr/KK3/O4X/cRT/Lp//SWf/Ziz/V0n/dQ7/J6z/dA3/cw7/bhv/XT7/WEj/chL/YTX/U1P/Tlz/SWb/Ziz/aST/Kqj/QnX/Lp//Oob/Pn3/MZn/Rm7/N43/NJONyEsNAAAADnRSTlMAUB1ykZKRkZGRedtU2AxsIrkAAAJhSURBVFjDvZhtY6IwDIBB5+72cnbQOkEQ/P+/cnlrmwDeHKeXpGn79AnftSggNu87iNdNEeO1ktgJ2FUp/myMEa1NZQKkd0t25iv0pRmp/jfZQ3JhirOXpZycQPYYfMVAUimj2rPD79zJkTlu8p0qNSbVgqPiseRoEshx6vyeOTeRow36ssll5wgvuZacR5JPkzc6nzaQWGm9czdSqyRSK6P+i5MXEHip1UKSRqhFJ+KaHTnXeUrOjOU7KrJzB+LqvIC80NHVXI4cenKikOOmDmwOF24Q4Dh24kZTHDU3ctJMHadMPJZ8mLzVuYHA9qEWEnrjgkaEw/EmUy4ylx0XVTX1EOJVIfHMpCvH88aOVyyTmEA87Al4j0SAvJBD18jESXcvDp+zk2/KUXE/8ssHk+gEn4udDMQJAQ5c0AI4BvhAXxYUkqPvnqdCvAdyXoKN7Pw7OZgk5xBocbGja3GKDnKHQoIRDnG76mQlTeVQJMzI4adkUIVkMIicgZM3dji5ARmGgQXekRw0G9jhc3ZsrCbtoHPmtOToGNrZVMvOoNZ0apk8rXKe2t6kOH1ei07f05Gr7cnpCfLqyWn5zJCn4ntyTKwnnUlxOlkTBxs5aYAbkg7P0vouOrFdc2zch4xMxjEXkbHTBWQctTMi6TQYxVGxnlxMArnMnIsNckwuO1PyfCM5q0Ry/t4522ByUXXN+Z6cTF51VAE52WCipWvOGtKYFKc5pb7oNA0dY0dyauQd94YdCWRMTrFmTpOcn5K3oigt2cKPfEvwj4Byqhj0LH8flG/y1TL9xVBsyu22lPsX18UvZbTgFYUAAAAASUVORK5CYII=",
+      "e": 1
+    },
+    {
+      "id": "image_4",
+      "w": 17,
+      "h": 251,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAD7CAMAAAC7bI8sAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAaVBMVEVHcEz/WFP/NZn/eAb/cRX/MZj/eAX/QnT/U1P/YzL/J63/KKz/dgn/cBf/SGr/TGD/YDf/ZS7/aCb/VE//WEf/XD//Q3P/cxD/UFf/bB//P3v/MJv/M5X/No//OYn/PIL/KKv/K6b/LaGMCOHlAAAADHRSTlMAFDpwwcCVwMDA2otWPMa5AAACmUlEQVRYw8WY2XriMAxGDRSmA2QlkLDTvv9DjqzFlhJnmqH0m1+yHZ8chXucg8wWK8hi5iSLLWfFYLUNeZsZQ6zZ1mTeU1B6syQbkO0PkxaLD0/gIiiQtt1KCVEFxCthtS06Moabd2xoigWcSzvTSIYdScaISjtZnMpa5QHJbDxpTaWd/0qOma6BcxxxLPKOzWDqmHaSJOP1N+crUqecWhU6dX8KkIpzv4+1HqrF0cQ7eg4djLwAp7b5DqmkhVSxKyTxVkVHipwKHqlhqyqcEoZQHGEVERNL6gnOP5FSFZJSGeWoowsIHKVanuA7atjEYSYOXThMOJUmVdr5HtmbArIvS91ph5/5YCJACCPaiOzlagnTHiGnGZCB8z6c2jemyGlUJx0LGv/rcITlyTue+8D8lA05jYw0I86zZEdFhye7RrdymuCQveOhnSfxGzsiDb4WDR0b/k60xpwppFONpDOMiK4ksaDzxGaq8yJSdL66gis4hXbkbYHtnUJVV4TviIYE09GKTmTidIUkTAVsSDFGfk1yclPg5EWhG7+jADtY1OjkcqEX0ZHyDrxQwV9X30GS533nB8nBFJFwZSLPuTgHOA+0+eVJfghfgcbvkKQcuVAHEvJKcjKFzukQV9qBA59pO3mCD7TBjoTfKsfkheR+v59is3OXJqIdWEhOmpGjw+QUF5Bb0rEEHN3OLePl7nflUCG5wRNe8YGm8JE3cm63KIJzs1FOIMtp5Kpq4FyRXE2AwK7nxpynyEXVwLl4crHxxExd0s5z5Gwq6ZxtiFxUjzlfk09TQD6nODZEzqrHnB75mOLY4JSptDMgj0mOLiQqgJzbPJTyeCydmz9M5q43tsa/VvoKzK2DMZc/XDbI1pv4F4yfDbc/ChA96LBk43MAAAAASUVORK5CYII=",
+      "e": 1
+    },
+    {
+      "id": "image_5",
+      "w": 17,
+      "h": 251,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAD7CAMAAAC7bI8sAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAY1BMVEVHcEz/PJD/KKz/eAb/Mpf/Vlb/J6z/cBf/W0L/Rm3/eAf/Xjz/YzL/Zyj/Kqj/WUb/SGr/bCD/UVf/L57/TGD/NJP/Q3P/bxj/OIr/P3v/VU7/chL/PIP/dwf/dA7/dQz/dgp06xGzAAAAC3RSTlMAMHZckhPWkZGR2JoEUHMAAAJfSURBVFjDvZiJdqJAEEVbjToTZNFGIw5O/P+vTK3dVUiOHIN5VSx9uc8PMATIerWFrNZBs71KtkNwvb6vB4Ct9dVlEcLKk+2gBL+E5AaTQ87NDJKbD7WG5DZOPmmEfPqgc0emOP99ZiT/fH6bfLgZdT58kPjauPObZO9m1Nn7IPG1552XktKREs9lGnRKVkq+qCUOL7bglLIv+Xfyr5RESmby0FZacWzmI39GnJ2bqc5jsvVgR87OLjt2wdn5oDNs3TtzksIsksKhqU7hBgg8MHpHUtBHcYrUIgcvdgrTEyKOtOSbxrbmJ7UbcuoiX0jqgr4V8hxt1ZiiruVJLTyrQ4SBXtrKjFvpZ4T4zEsuZoFcHCDn4iRx8hDxuXMu487ryMENkMMUx4da0MtLzsXsYbzlpTHn72jrkTPWat2g08IXvaRlFWy1kIxabvE7L5A2nehGTsvFNjsu2sraN86TpDGDpEGULiY8vJakVjpg2oachlYwOyy06jSNHumWSMprycnNRAIPu0gcOH3n2LyWdG6AdPDBXNRKgjqdvDOkFjPKqUuOKkJsZiR939kRB18z6Z1EpGMkd3X0xoRfVQrhrTdCry0bdfpHztkskbNjRFyAnHs37KCmFzr3rbnI0Y1xjsaBJAUJPQVA1GEPF51UoRu3siROOjly/DmJbiY7+cgkGgMWSTrQkxyMophasjE7UdUhifOSSg4VLhJ6qfhBTgKM2KliFtGp4EUWQiTmjUSik7iVEu9I9TxZevAWwsKTZQhhY8GG/lqxZEH/pSyStVnoHy5LYptl/gsGu+n0BQIaJR+WggHvAAAAAElFTkSuQmCC",
+      "e": 1
+    },
+    {
+      "id": "image_6",
+      "w": 17,
+      "h": 251,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAD7CAMAAAC7bI8sAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAdVBMVEVHcEz/eAb/SXX/KKz/SGr/Oob/LaD/cRX/Vkz/ZC//Zjf/KKz/eAb/eAj/SGr/aCj/UVf/TGD/bB//ZDD/XD//Q3P/bxj/WEf/VU7/chL/YDj/P3v/NZH/MZj/dA3/K6X/PIL/Lp//OIz/dwf/Kar/Oof/dgqlaiY7AAAADnRSTlMAkCrowMDBwMDAZIXQ4OFpIR0AAAJySURBVFjDxZhrY9JAEEUDKCrVQGiAmBQhpfD/f6Lz2Mfc3cVSavXObHb35Ez4TlVRposJZTGtfCYnl0kKTqfvKVBreoLQtxZISPqC5IeSC5WPEAaXi6wLkwuGnYzc4vzC8FRG7nPuIz8x/59soYrOFsMEx8rOPyTrra3MWYuDyabWZWdNb2Jfc95OvhWdpWkiSwB+yjAmSyie0qzdM3OY8Lb2lnPCED/YMddAbD6WPEKJY0HZecQwQans0IvY15w7SW8Wkx6YOD1fercTcUdfOpWQHiNTUGXnw0jb28qclsjX1qZvsykhANp0qlUnIfc5JbKDutXZQYigsvNOGxY7+ZQRPMmdW0i3k9UF0knp1nknIHG6bmeqY0KbC5/EiQItJbljcz9ZQRFZ3eJgZIrmYitZ8dIWIgeYMkoXSO68RpqUfCpMNVDeadzSKX4TFCV0ahqHGvmtKFGTo+/FWylZ6ZCb9Y6HhkQLSfNOUptiUjNq/KZES9uSMBUu2uLoUfdaHTlGp/Y3TSABWlL/dbKBIrKpU1JwNnSILVOAlKQOxpA6I5s3kSElnzcDlJsa4io6wyBH7c1AjpwdoMhvARPHXTWBDO8nx+FoWpyjaSZHcI5MYEgIJpDBP/7gJOQcSsnZGGcmZ4ySo+lrzuvkGYrIM4YJSmUnI083ObaEYIRY6emKk5B5ydmbdk6879nZZ86ekGsOT0XEpVNG2csU5B1kDEXNxB1dE5G3sZmMo0VuSm6jdUZ/T8j4FnKAKjoHjJDR9OGK8zp5OdjKnBdxMELs2KyqHlCZV9UUyaJKPjSXP0pmEcz0D5bpPAGUB9FmD1U5vwHXHGKcUKwv5wAAAABJRU5ErkJggg==",
+      "e": 1
+    },
+    {
+      "id": "image_7",
+      "w": 17,
+      "h": 251,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAD7CAMAAAC7bI8sAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAY1BMVEVHcEz/PJD/KKz/eAb/Mpf/Vlb/J6z/cBf/W0L/Rm3/eAf/Xjz/YzL/Zyj/Kqj/WUb/SGr/bCD/UVf/L57/TGD/NJP/Q3P/bxj/OIr/P3v/VU7/chL/PIP/dwf/dA7/dQz/dgp06xGzAAAAC3RSTlMAMHZckhPWkZGR2JoEUHMAAAJfSURBVFjDvZiJdqJAEEVbjToTZNFGIw5O/P+vTK3dVUiOHIN5VSx9uc8PMATIerWFrNZBs71KtkNwvb6vB4Ct9dVlEcLKk+2gBL+E5AaTQ87NDJKbD7WG5DZOPmmEfPqgc0emOP99ZiT/fH6bfLgZdT58kPjauPObZO9m1Nn7IPG1552XktKREs9lGnRKVkq+qCUOL7bglLIv+Xfyr5RESmby0FZacWzmI39GnJ2bqc5jsvVgR87OLjt2wdn5oDNs3TtzksIsksKhqU7hBgg8MHpHUtBHcYrUIgcvdgrTEyKOtOSbxrbmJ7UbcuoiX0jqgr4V8hxt1ZiiruVJLTyrQ4SBXtrKjFvpZ4T4zEsuZoFcHCDn4iRx8hDxuXMu487ryMENkMMUx4da0MtLzsXsYbzlpTHn72jrkTPWat2g08IXvaRlFWy1kIxabvE7L5A2nehGTsvFNjsu2sraN86TpDGDpEGULiY8vJakVjpg2oachlYwOyy06jSNHumWSMprycnNRAIPu0gcOH3n2LyWdG6AdPDBXNRKgjqdvDOkFjPKqUuOKkJsZiR939kRB18z6Z1EpGMkd3X0xoRfVQrhrTdCry0bdfpHztkskbNjRFyAnHs37KCmFzr3rbnI0Y1xjsaBJAUJPQVA1GEPF51UoRu3siROOjly/DmJbiY7+cgkGgMWSTrQkxyMophasjE7UdUhifOSSg4VLhJ6qfhBTgKM2KliFtGp4EUWQiTmjUSik7iVEu9I9TxZevAWwsKTZQhhY8GG/lqxZEH/pSyStVnoHy5LYptl/gsGu+n0BQIaJR+WggHvAAAAAElFTkSuQmCC",
+      "e": 1
+    },
+    {
+      "id": "image_8",
+      "w": 17,
+      "h": 251,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAD7CAMAAAC7bI8sAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAaVBMVEVHcEz/WFP/NZn/eAb/cRX/MZj/eAX/QnT/U1P/YzL/J63/KKz/dgn/cBf/SGr/TGD/YDf/ZS7/aCb/VE//WEf/XD//Q3P/cxD/UFf/bB//P3v/MJv/M5X/No//OYn/PIL/KKv/K6b/LaGMCOHlAAAADHRSTlMAFDpwwcCVwMDA2otWPMa5AAACmUlEQVRYw8WY2XriMAxGDRSmA2QlkLDTvv9DjqzFlhJnmqH0m1+yHZ8chXucg8wWK8hi5iSLLWfFYLUNeZsZQ6zZ1mTeU1B6syQbkO0PkxaLD0/gIiiQtt1KCVEFxCthtS06Moabd2xoigWcSzvTSIYdScaISjtZnMpa5QHJbDxpTaWd/0qOma6BcxxxLPKOzWDqmHaSJOP1N+crUqecWhU6dX8KkIpzv4+1HqrF0cQ7eg4djLwAp7b5DqmkhVSxKyTxVkVHipwKHqlhqyqcEoZQHGEVERNL6gnOP5FSFZJSGeWoowsIHKVanuA7atjEYSYOXThMOJUmVdr5HtmbArIvS91ph5/5YCJACCPaiOzlagnTHiGnGZCB8z6c2jemyGlUJx0LGv/rcITlyTue+8D8lA05jYw0I86zZEdFhye7RrdymuCQveOhnSfxGzsiDb4WDR0b/k60xpwppFONpDOMiK4ksaDzxGaq8yJSdL66gis4hXbkbYHtnUJVV4TviIYE09GKTmTidIUkTAVsSDFGfk1yclPg5EWhG7+jADtY1OjkcqEX0ZHyDrxQwV9X30GS533nB8nBFJFwZSLPuTgHOA+0+eVJfghfgcbvkKQcuVAHEvJKcjKFzukQV9qBA59pO3mCD7TBjoTfKsfkheR+v59is3OXJqIdWEhOmpGjw+QUF5Bb0rEEHN3OLePl7nflUCG5wRNe8YGm8JE3cm63KIJzs1FOIMtp5Kpq4FyRXE2AwK7nxpynyEXVwLl4crHxxExd0s5z5Gwq6ZxtiFxUjzlfk09TQD6nODZEzqrHnB75mOLY4JSptDMgj0mOLiQqgJzbPJTyeCydmz9M5q43tsa/VvoKzK2DMZc/XDbI1pv4F4yfDbc/ChA96LBk43MAAAAASUVORK5CYII=",
+      "e": 1
+    },
+    {
+      "id": "image_9",
+      "w": 17,
+      "h": 251,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAD7CAMAAAC7bI8sAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAY1BMVEVHcEz/PJD/KKz/eAb/Mpf/Vlb/J6z/cBf/W0L/Rm3/eAf/Xjz/YzL/Zyj/Kqj/WUb/SGr/bCD/UVf/L57/TGD/NJP/Q3P/bxj/OIr/P3v/VU7/chL/PIP/dwf/dA7/dQz/dgp06xGzAAAAC3RSTlMAMHZckhPWkZGR2JoEUHMAAAJfSURBVFjDvZiJdqJAEEVbjToTZNFGIw5O/P+vTK3dVUiOHIN5VSx9uc8PMATIerWFrNZBs71KtkNwvb6vB4Ct9dVlEcLKk+2gBL+E5AaTQ87NDJKbD7WG5DZOPmmEfPqgc0emOP99ZiT/fH6bfLgZdT58kPjauPObZO9m1Nn7IPG1552XktKREs9lGnRKVkq+qCUOL7bglLIv+Xfyr5RESmby0FZacWzmI39GnJ2bqc5jsvVgR87OLjt2wdn5oDNs3TtzksIsksKhqU7hBgg8MHpHUtBHcYrUIgcvdgrTEyKOtOSbxrbmJ7UbcuoiX0jqgr4V8hxt1ZiiruVJLTyrQ4SBXtrKjFvpZ4T4zEsuZoFcHCDn4iRx8hDxuXMu487ryMENkMMUx4da0MtLzsXsYbzlpTHn72jrkTPWat2g08IXvaRlFWy1kIxabvE7L5A2nehGTsvFNjsu2sraN86TpDGDpEGULiY8vJakVjpg2oachlYwOyy06jSNHumWSMprycnNRAIPu0gcOH3n2LyWdG6AdPDBXNRKgjqdvDOkFjPKqUuOKkJsZiR939kRB18z6Z1EpGMkd3X0xoRfVQrhrTdCry0bdfpHztkskbNjRFyAnHs37KCmFzr3rbnI0Y1xjsaBJAUJPQVA1GEPF51UoRu3siROOjly/DmJbiY7+cgkGgMWSTrQkxyMophasjE7UdUhifOSSg4VLhJ6qfhBTgKM2KliFtGp4EUWQiTmjUSik7iVEu9I9TxZevAWwsKTZQhhY8GG/lqxZEH/pSyStVnoHy5LYptl/gsGu+n0BQIaJR+WggHvAAAAAElFTkSuQmCC",
+      "e": 1
+    },
+    {
+      "id": "image_10",
+      "w": 17,
+      "h": 235,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAADrCAMAAAC4uo23AAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAZlBMVEVHcEz/dQ3/KK3/W1H/QnX/N4v/LaD/bCD/XD//Tlz/J6z/KKz/dQ7/dA3/cxD/WUb/SGj/Q3T/Tlz/Xjv/YzH/VFH/OIr/PX//M5X/Zyj/Kqj/Lp//ayH/chP/bRz/cw//bxj/cBYyLSWjAAAAD3RSTlMAkG0cwMDAwMDAR+hl0ODSHy7UAAACZElEQVRYw72Ya3vaMAxGDek6BmzOjSQko6z//0/OuliW4pQnBdpXimMfH+U7OBdSHDchx8LFbK6czRxcr7+LGSCruJoE6WhJkH5a8gfIxRQ6GgC52ODUnNznXN5NAnnPyBonJ/9swMnIfc6bzTeTvzZA3kwtO19HzqYWnbMNEDu2TPKpLyNt7rSm0NHFzlk94IQralxoihuhc7uzdlp0RGnjVBsP7Oz4GKMcIbuMrHGWSaMKSEOXzW2HipZAmibs6IFFO3BugdAtCeQ08Z4m6TvizEjzDcSbMo4Xx2MD8Eg83aop75MUtnOn8dpBhRza8iQ7wjwTOTdenBQhTUb8w+Tkda12LGKHOjqnsKGGOjn3K/r8QgeOvKCDW5HY0QFHBpgsO08itaoPnNoUT1HjEkgdttS4ALFj2XfQ0cmncuejqdvOI6SsdaMjZ3jYqYUBgW1JoOSp0hQ6poDghjosPMWgjE6pGREG2lEskhTnXjLyLCeQSlXmVEiqSjU7lWp0TAViQQXEJk3NnJKFEh0+lszJKe138i8/jfSmjNOzk67FMcg6PTQRaZrq0wleyenppicnan0kbPTyZZsl8uMuJ5AudYdEgRuOrkAs6Ijo5qnU6NBOOV3HjBJJt0j6Fc4aMggZuDpc2Rk6ZuwMog3oxHseTU6U0BEUCbwHQUhI4fDUkCxydNaR11VkMrXWyUh4TeoBgnfCojMJR2eKcGJnMkzI9DgZTbEzTrIuOuOI27gCmUa+h/dIDgcYkSl25ozifJa8Ore1ZBt+4x80OMAfAfuZ4szclv8+2PPgYS9/MbhiG8Ln/zOJMyA4OKjmAAAAAElFTkSuQmCC",
+      "e": 1
+    },
+    {
+      "id": "image_11",
+      "w": 17,
+      "h": 235,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAADrCAMAAAC4uo23AAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAeFBMVEVHcEz/ayD/HMb/SXL/PIP/L57/I7f/Smb/ZS7/WEn/G8X/HMX/bB//bCD/aiP/V0r/aiP/W0H/YjL/LKL/Xzr/Qnb/Ziv/MZn/KKv/UFn/U1L/TGD/Rm7/NJL/SWf/JbL/P3z/PIP/N4z/Irf/ILz/OYf/HsD/HMRM/p40AAAAD3RSTlMAkFMZwMDAwMDAfuhc0OAwqLyzAAACZ0lEQVRYw62Y63aiMBRGo07bGesMiCIFFXvv+7/h5FwSzkfiWhT7ndzY2Qd/i3M+q83CZ7NyIYtSsxiDsvy7GgGxViVk49wGiZd+I/mXkHI+OUBNdRJywCTOIevAcznBuYVUUFmnwhDBNnYO1TCrUdchIdUtZF8NQx2D9kT2gLTLFjl+N4i7BPDNnokelQmxiaRKiHH+XOtCZ2sGky0w37VNnC1Gukxtx85eHD6FJfue2aQwk0hBR15oDE6g4hThUZyi8CeetBXWKXgRR8IKExWKxBEIXbeSLhYNcBh54i87muqxw3eGREEGE+5T0A3vEdqpE1MkpLtC2itOG1Zy2s4PmrR68tDpkfdW3sNSK6D1TksRRolOkKIzhH9rRB4mkqMZTCxgcgTGBOLJsYXKO5Q2LoGkzvdJD8WOBUR6cHoifos5MpFTrzeB9JEj6W8hp94WE0zinMTpzcx3hfQJOV0ntd/MZMcydWpTTGo1+M65X6daojs56uvGBOK76kzXNee75NkUk2coJhBP/FqbISR15pAXqKzzgiGCbXnnp8gHlCcfmNnkNSUYdqDyzgRyzjlnU87dvZ6TLgy/B8p3ZZwxuZtLGlNEGkziNOKczSRyHnel75lJdlDq7Jq4Zh097nQlEh8b2pgI0z04TWgKjslPkicoTxCoY4c4dhABIMQCdWxy5H4uuZhioseLXA3EFy+eXOjE4Y3IU3yiVRybqeQNKuu8YYhgW96ZQt6hPHnHEEEp7yTkM+d8miIHkyVfkxxb984tvyBr/x//0YJH+hCwHCmI1vr5YKmNj8v4icGtluv1Up//A48fWuSrUgwYAAAAAElFTkSuQmCC",
+      "e": 1
+    },
+    {
+      "id": "image_12",
+      "w": 17,
+      "h": 118,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAB2CAMAAAAZQogqAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAS1BMVEVHcEz/P4H/LaT/T1v/S2P/UFj/OI3/LaD/OYn/Q3T/Kav/QnX/SWj/Kar/NZH/T1v/Rm7/Mpj/P3z/TGH/PIL/OIv/LKT/L57/OoYbklU4AAAAC3RSTlMAFjTUwJBiwMDA4PS5Xv0AAAEuSURBVEjHrdbrjoMgEAVg0KrdVUHqre//pJ0BtHOQzSaGM2ri1zP9i0pRdNtQWq2ONDamScHaWicQWtpCKqVaFCo9UGqlahSbymz91iyGZcawQGfOd0rJAJPtDBgWXMt3Csk0yCH5gcbkZYKQ4NaU75SSHibb6TEsuBY6k7jzW6XkBUOC4IXSf++jEy7G2BG5K8/XknYIFjHcwZLfgvDWIpdInkvaKSZvTEFZMSxvmHznnhgYEgTDAhBEZD1kPR+Xzh/ijJGXFwkknZHvzotz50XhLXe+U4Wki799O53D3JcdhgRhZwHY/RbEd3auHY9Drp3/ZIMhQdhYAIJAbsu4ybl0Rt+R2UYvcm1MOxnp6BRGaemo/gXh47xKK7DXxo8AHf+9q84PBaUrSvxw+AD2YHWhIR4uwQAAAABJRU5ErkJggg==",
+      "e": 1
+    },
+    {
+      "id": "image_13",
+      "w": 17,
+      "h": 48,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAwCAMAAADAQ2FbAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAANlBMVEVHcEz/SGn/QnX/SWb/RW//S2X/Q3H/Tl3/Rm3/TGf/Rm7/R2v/Q3L/Tl3/Qnb/TGD/S2P/UFkzw1WXAAAACnRSTlMAWrj/2XoskpETfT1ntgAAAIRJREFUKM+t00EOgCAMRNGiFayK2vtf1kqEMNGFIXxWvszSElnigjUJ5SZ9Cg8ELbHAIq9EIU/kUGwUIsQoGlVfm/hTDqxZTqxZRuxL5kZZ4Zms2C04+t78kAXrKRs8kw3rJLv9qjs0EHkUZ7/vUAOno6jFpysQLgufT8Ul4+p47mH5ugCgdx+zvJRm8AAAAABJRU5ErkJggg==",
+      "e": 1
+    },
+    {
+      "id": "image_14",
+      "w": 81,
+      "h": 115,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAABzBAMAAAASxfM4AAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAKlBMVEVHcEwCLlIDLlECLlECLVAAMFACLlECLlEEMFAAMFAAMFABLlEDLVACLlHqrW07AAAADXRSTlMAgMDZZBCY8EAwILBQJJhG3gAAAwRJREFUWMOdmM9rE1EQx9O4GxJ/QBSrJ0FE7KnQSw8qgUYRrRBYEURQIbX0IhTswaKHQKwIAS1E9CpUEfUiWPAgxUD0Ui8ebMpuMHn/i0nZ93bej5l5Ord9+2Ezb968me8klzPsZvXIqbEt/MyR9nhKKOttNlHu3bTQ7cuGkwsvCMsGcy7wuHBYMukJutBtgVjS1cFbArVBBMFSAyfFOUheJkCRtDMwEKTNZmSNJncyLwVjKv7XtQ8sXGm1WtVFuHZfkp1sbfWqXLwN2N10rZgtfYMB+WE5uk+tbOnHsaZemDt/aB7xCfkmzdSKTN3IJFWcu3qMZu1UlD9X3nsqyEOLbDKvkXJDfUd6FzXyU/p00nVlGpCsaV4bNg3JNBRJjiXTh4E3+ZsnU6eHPEkE6V/I6uE9a0JyN8eaoHakWZpKPZ6UpXCDJZdTss6S8tz/sORr6/5jpi5cmSMLwjeiJbuocGESccSQ6+qjZxkyn1WbSZrcD/ranF/sefSA8EXDCkQvUahWlJN7vh8V4rTvR0c1HM/VsGP0FXxfE2Zfw519afYg1Nlw2URXMGdLpggRcRtBg4rVLzFxM9HwRq/5o7YDA2xbgbWtFfT6WcFCb0x4EZUBlj0jVZBmbyqECtLtYAdVQdZt1UXeI+q+aPtKyCK8hkgrh72HWUXXi7cA7dLok4x8wJQ2JW3YZlVSR5BwlfWG8O4BKrNmvLtF37sBxiwpCxbff4uGWuR7umh6998uS97xDajqvzyZ/09yyZcMepGnn+viM04eAlEazUYxr1Ka6dEusSkiJQPuKVBoBbL2BSDras4J0My6YaZsYtrN0YT0gay9avCoAwnkVCtKd4wK4y9KVwRwlAoICZL18r52pS0JAobqunalzTkOFOa02GgdaDAvwVegiQ2do+7O5mjefH5sCq6VfcZn7VRKFYac8RnzzSa3TZJ1Qi5ppsvnIu5qr82pBTRxMHTLR1iM7auzAS/a/1pg6u6F4cEqXjTD7+C4z8/Tte1j9e74L6szR58aL/4C4PQkbo6pYqEAAAAASUVORK5CYII=",
+      "e": 1
+    },
+    {
+      "id": "image_15",
+      "w": 60,
+      "h": 141,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAACNBAMAAAAZRASRAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAHlBMVEVHcEwCLlICLlEEMFADLVAAMFACLlEAMFACLlECLlHFYILAAAAACXRSTlMAgMBAWxXsMJhKdNaqAAAA/UlEQVRYw+3Wvw7BUBQG8EP83djYaEh0E5uNgbARifAABpvYbOIJqkHct0V7Wm18PaZanG/sr733nntvk0PkZ295aRFO33g5Kysr/5ZP/q9p+3yzojkS8XOYhnIqzKnLB6qsrKysrPz37KbC3DOZLzzDfGAeYC4zVzAXPvqBWLLMV8wl5gvmnBELLxq5sq289KC92WCeMt8xr4PJu2LhCaMHlSWVFizdHKULkbS4ZdimtRFnQr6hQ8+Hkxu3K2zMy0dC5a80vRd2eHTu5I2DruM7Dtw4zNHFIc7JTGOZi1uRaSUz9WSOT//Jse8B09wWmfITW+JnFsOaZXWqgwciOEBE6MUy2AAAAABJRU5ErkJggg==",
+      "e": 1
+    },
+    {
+      "id": "image_16",
+      "w": 70,
+      "h": 111,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABvBAMAAACjo6tJAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAIVBMVEVHcEwDLlEDL1ABLlEAMFACLVECLlICLlEAMFACLlECLlEfcRDmAAAACnRSTlMAwEOoJGWC2BDw5msGTwAAAVRJREFUSMft1zFLw0AUAOBXrZ0bEREnEYrilMF2yHQI7hUHxalCQXFyFKeCf8DFpZNpG2PvV5peL9dLLu/eGxxE7g2XI3y5l7t7gQuAJ3r3URTt38LqomJwWhOXh1LFDHRnFbsVclXerhh5YJEb2WzyiSEnEjHyuSRvEjWZJltT3OTa3EncSKHItvSZoTKJ18TuMI7pusM0mo6kzZljLo6LuLZMe+qY6oIUpmUt16B4vjfWprMxT4b0RaUQ2saYVMtxveSMKVMtHwE15azOATev684H4GZHz0h4TMutWsesX2cOPpNsth8ze6pNwWf6qn3xmge1fMJrEnujEaNiRBvra0UNlgrqdU8YQZs50GbBMDHDCNrkQJuMYb4ZJmaYIcNMaJMCbTKGWTDMO8N0GWbEMEcMIxgGaJMzTMowX79kZn/MfAYTTDDBBBPMfzP6x7rx2PIDaog9MHf2fQ8AAAAASUVORK5CYII=",
+      "e": 1
+    },
+    {
+      "id": "image_17",
+      "w": 101,
+      "h": 115,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGUAAABzBAMAAABz3dF6AAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAKlBMVEVHcEwDLlEEMFACLlEAMFAAMFACLlICLlECL1EDLVABLlECLlIDLVACLlGjq2OkAAAADXRSTlMAwEDqKRCFoNBgsHBQ6WarLwAAA0pJREFUWMPdmM1rE0EUwLftbkxsBYOCp4Ug9SQFBdtg6UK0F0UKS734QUGreFACSvUkCz0IvRgolF6EgheFHgIRiohQEARvQpOVdm06/4sx7sy82X3ztaAH3ynZnd++mfc1b8ZxUFn8+Kw6kDNPzjlm4n07RZjM7pggN3wiSP2LVsknkpX4oRoZjQgiz5WIT4glJEMIuSdD3LYMIXFDwjwgctnHkWtEJe8wpBIomQSbXUTUcimP3MoM6VargcYMbgu+n10eDlj8HKgUzcOp87h0gS2TMKMGfHBGmMQGf7EqVXM5M4MNiY88vpqZXKQ32TshK8rs8WGYj0I272nUNzGWYMwNhzAEmJpXaB5GyOSYBQ5CNBKP0fcX+DNmgaeShG/lLFdiamSZdZMul81jQaNm4PJcvvqIWTLSzFh7AjW/KGPpkJ+Z/6ShqC40TtP/W+n/vqqK+eJ3aWicVDFTgpkqBlNznBHBq2V1NcqE15HgnWl1JQ/glyNdeRVCPx7GEjVBqGa+g1VXdLGWyol03Prg9/H09w8NMwKMvYQXlZyUwDg6z46GodGzByK2odtowRoCMfi0Djri+L6W8dlAmjw9LdNmPimBpaklXXiXm33VghnTlY8sE/OQuFjVCY1Lnn/mwsPAhmn+I6ZdgPH/JyYpwHR5sbZhUj3JWVOZZEzXsRAflFRLhvxtJjIsb9gmXivAdCyYKbMdS5AFk01bshXtWTBlwy0La+f6Fsw4sQ841pmFFlAA9mNTocXqrQWzVcBwS8abIxfaU9hkHWvfLIzgIT26cdb1C2RDHNpHqU0KMSP0CkSPzeRoJNiED1uQheVGSQG3thXHcMH9r5HjXKyupvPASuPESNFEAK3kG62oSU8LwhFPmUVXRBdyy5HT0gIVZOJrl99GdJRXPz3koDsodKjt3CgfX6BNOGjIEWFy8AYlD3EElicPXqF0N0XkbktoXSRXNdtAlftBaHfAgjyx8YlfTv55fvWx2N28QO8IGAYbZInPdw0apLgmuyqxuBy7o0Xm8p77qkGw2xJPfZ2W1OzuIH+vf12airaIQlOiyGB3BUXqyr7Le4Mg27qyfDurqr5pUCSv3wfE2o5haXXPPxoe4t4v57P2F8LCrahAgLb4AAAAAElFTkSuQmCC",
+      "e": 1
+    },
+    {
+      "id": "image_18",
+      "w": 101,
+      "h": 115,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGUAAABzBAMAAABz3dF6AAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAKlBMVEVHcEwCLlECLVAAMFACLlICLlEAMFAEMFACLlECL1ECLlECLlEDLVACLlHP6AEgAAAADXRSTlMAvmUmgPAQQKDQ4JBQB1QUuQAAAv1JREFUWMPNmEtrU0EUgK+5modWqA8oVgMRiQshcFvsppKFtQpqL1i7cWEgrqSgUKK4KxRBBTEgCu4CggtXgaq4LPQPCCY2mETPf1HT3DuvM2ceUuhZzvDdOXNec88JAlyyjcVj/+Tk0pPATu5frkEqy0uRmQivgyjDV3UDcqkNinTOU0T2AqDygtDrGWjkjRZpglY+ahTbAkJOoEyZQqBXQpAZoKWvmjxTMzDwTrlM0YTAQD5oHszy2qDZ4G+InpLWfolMRQSe7sZz9vG0sL7GI3lh6zgXyrMtbuM9zzT1ERneYFtdzTF9JV9Y3A7w2/QjKkDYZoZTDMtK5jsWP3N0UHG6b6afYb55q8mSxEaTycIBndOYFGQmBlVdSXISE6bIXX3Wt0SmkBqAqGSxyKSq/SAK0jeBYVYrEcy6wOSxYDIwVZDtaGYSdw3r1kxq6Z+BNaOGkpmpWqkWXFwcSUnwTjewlzZehyiZQEsKLYkJhg6qHfK4zjj24JYDs2XlHdxskT0SephgwlQ8EDkyZn47MEmZ+u7hnkkH5qGHqdctyocsFfcITbMn8AgdF2b8GHX2MdP3YHYC9/TZ2etziu7ps6/90/SIt/g/mLU9ztOqRz046lF3Ch71LW/10Eu/7x712uddCGru708ScE7Grni8p1WPd7vgYYQMuEdcFm1tLA3X9ciGXt2eOZwot+FhBJfnvu2hXAWs/xRD5ULmB6UcyX+XRrdmWAkogqWLKsxOc5YH5bmfcNZpks/QqOHcVJSD5wQzL7RVTLmBPsUPis0zsxzc1rqmJV05Nk1k2BhnBWnre9dQ5Graj6dLLXqMwxCA7WRxlZ/9XFHu8pXbjbCDAM6IiDDdWGHrq+K87RzXaQsjPL5VFg8CWF4YDV7Cxidx/YN+8LLrv2nTJCm2mCPJVT1XMyPKrOCeEUHmK2UDgnq7STNoouTIEdyUpoNqOyPUSVPOQ9XeF7K6nEWQO9uGKvbgpTJXtqjgs3xgdj5b/jqEjZujOfnphUfK3h8xF/tww3jOFgAAAABJRU5ErkJggg==",
+      "e": 1
+    },
+    {
+      "id": "image_19",
+      "w": 124,
+      "h": 113,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAABxBAMAAADlrtpTAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAIVBMVEVHcEwDL1ACLlECLlECLlEAMFACLlIAMFACLVECL1ECLlHAqiUhAAAACnRSTlMAQsCb6yeAEGjQwUdofQAAAiNJREFUWMPt2b1LxDAUAPD40VO3O/wYbiqKCE4qqHiTCi6d6iLqJCgqToIO6nSb6OQiyk221vt4f6WcNmnT5r2oDxQhbzra97vk8pI09ISgY2Bqabofx5Pi+7G7Bip6i+eGjJqMsHTLuwMt4tsyz+7OFL7gqgXFWCY4xJrfCQDsPn+zm7t+AaZIDggOTXW5Ehg59EKCb6l6IRpgg+Cv8moD0GjiHNLS7uFaG6Air1q6nuUY+efA3lM6G6Ay9/uXhkgNPQtv0BwOSK41nsyc1mpTh/NY7z+WY5DnDdMqGw8M5VWzpJXx0SzvOTfFBnIdKC3O64zXkfWRq+ZCqXnFPZmVnBRyskX0VuQjio/JnNXS2lbToY0te1+cpZ8eyzuLGpUE5R7aQL4mIcbTviehiV+iYyd5+vuezLu25A8InwvMEyMNWfsOwleQzqUh50SE8COycVXVNsIDsnFVupjar9HG1exKKP6EP/Ra+p5o4uaaf8aZab/TeUQ8cuvG3VrjCwS/MexXOk/OCT5s5VTfxWB+SzVyn+JDVl6leMXGY/KwI6fdOsYj+qCVZr1g3OfxJosn9EHPs/BXy0HRwiMeX+dxn8ebPB7yuGDx+E95m8e7PB79Z97h8RfHHXfccccdd9xxx3+Zd3g84vEej8Msj8Nm/x2n/2Oup/8Sn+fxBo/f8/g+jw/yuMfj6p3ZD3mFx8UEj4vxVpmnf4tVxVdiW/6LVn0HUwzwELUdpzgAAAAASUVORK5CYII=",
+      "e": 1
+    },
+    {
+      "id": "image_20",
+      "w": 116,
+      "h": 115,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAABzBAMAAAC7sTusAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAKlBMVEVHcEwDLlECMFACLlECLlEAMFACLVECL1EAMFACLlEDLVACLlEBLlECLlH71NrfAAAADXRSTlMAwDeH8BBn0CCgUOCwew8omwAAA6tJREFUWMPFWc1rU0EQj22TJmmE+okigQh+QyAiLVJ5oEJBD4GiwR6kEOyhFA2I0GOg6kEKFiooFKEg1osHwQ88PlBPXgqmiY012f/FlzY7O/vefswmqL9Tum9/nd2d38ybnReLaXDuwtd9AY6On4k5YWC+ygC18UUyMX6vyCS0XhKZt7IsguuvKMyzTIXGRTtzjmnwzca8y7TYb2aeZgYcMTGfMiPG9MxE0UxtaM85mWUWtKc01DfMio9q5iAjoKyUXzUy78OxyNA2wS9XJk52Rm+sH5THFxTBIp1u+454cmoDP2lGT+oEfn5Yeh6fM5qVjK6aQiJiFhtVBMmS3mwcGf2uOsSHWrPTVq8jvXyRHqzBeF2jtbg457qke4LCxRyG5+Rh9IE+rsRJXkOL8Q0OF4EFSq2phL9gSgTTiiDIU4ziABEr9klGkdla5OzMRoPdgnBy3ZESH7hqS7Wws/fdAU/lL7Nvt0L6rdvfDVxSrZBrPtupJdk9pfDeKSve3WzFlLHC4Kl6U/LqJIXKz7i9k1r4GgoUaorPXkR/NKYo1CQ+pyG6a3BSuB/8ftf9/YtGzaPpnjLjaDGM9ORTVSh7ti323SCWRmh+wkUQHVRBe1zBv6nUCnhnT/fXTyqVH/FKbC/yEwlDQFh2kWEHfJk/wH6ZSh2E2PHowbqLdIRKL7NBThtuiggA4ZKNvEb+IrXKRexOBUbWKdAlqv9fqNm+qbV/Qu3DOSCJPoTYh/z7CLo+Qj3vmmAykGB4WhulUkcgrQ3DPyFiGd5RKekN75DCC/DiIIt4A1ySlCshO4pCCL6bY9Oowlxz804GbZAXBJdp1Bl0rDNyxWiDh8o1voImjeqj/aWZyzklpNlFFymOSGv0XEoCTzqZZQdRQNk9KXmK4tmUPBdKU0IE5HFhispju3vgBrcd/lcFqgqhFs0wqqAqYSNQHjdytKhBZbenuJgab7BiebdplzrRgBiNJHTLVVJcm3NRebFmjmJ0S3kfNlwmRXthVN1GKdteGOFrTcXaA4uL7tmmrsNl74aUY5p2iLUHU9cUyJ2tKNqFN1HnZ8XQWYtyHxdN3bVp3MkK9YPfMoNRqbMT4BO6a6Uv2Vp6Kblzd+B1tyd+Xh4vmJIdbLnTRvdDg+qQThftzUtdRD+xUw/Z8rMW+lf/gG9mmkJy0LjdhrEsWzJRX5gz13E9c7W3LwYUZiB15Vm1xkjlzfNev3EEWA8Zbk3Qa/TkbLa37zk7eDT7zPIV6Q8OxLZze/lUHwAAAABJRU5ErkJggg==",
+      "e": 1
+    },
+    {
+      "id": "image_21",
+      "w": 101,
+      "h": 115,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGUAAABzBAMAAABz3dF6AAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAKlBMVEVHcEwCLlECLVAAMFACLlIAMFACLlECLlEEMFACL1ECLlECLlEDLVACLlF7TDolAAAADXRSTlMAvmQmgBDwoEDQ4JBQeDqUUgAAAwBJREFUWMPdmEtrU0EUgMdcr0m0Qq0uakWIiFkIgWuRLioBrVXwcSG6sqBg7cJNAyIoIgZK1KUgisuA4NZAVXAn+AcEE/XGRM9/UdPOndeZpwjFs5zhS86c5z2HEFzi9uKeP7Jv4TFxkyunmpDL8sXETkTnQJTRg4YFOdEFRXpHTER8FFC5Z9DrLmjkmRZpgVZeaxT7AAbZizJVEwJZBUGOgVkGqskLTQsDL5THHLQhMJT/aB7s8tSi2fB3iO6Xzn6ITE0Ebm/Ec/xoRjhf45FdwtUUF8qzHe7iJc+09BEZnWdXfe68yLtByRcWt0P8NYPEFCDsssAphmUl8x2LnzlzUHG6r+c/w3zzXJMl1EaT9GAbe4wus8oyk4KqriQliYlyZFWf9R2RKecGMFSyVGRy1b4YCtIngWFWqxiYJwJTxILJwtRBtqOdoe4aNZyZ3NLfiTOjhpKdqTupRo4vjqUieKdP3KWL1yGTTNDnfHRnqAlGHqrtCHjOZuzBdQ+GtqlbAWZL3JEowAQTeMU3Cq3tPz0YWqa+BbjHI3LINadEQNPCWD5kqWFNzyI0exoBoeOBkM1m1NvCzCCA+bqFmcH/4p9WQLylf8Gs/eM8rQfUg90ufV7zjfXZgyk6NXrp8z2gXof0BdL07z804LyMXQvop/WAvl0OMEIB/CMuRkcbR8P1A7Ih82gnO8E/tHMj+LT7boByNXDu95HyIHsBriby1yWctD59UvaQ1UU1Zqc5cIufIvcRXtDN4MjAua4oB3cMzLwwVjHlhvoU3y4Oz8xycEPrmo5k29S2kWFrnBVkrM/OoMjZfB7Pj7i9Qobss2JuhZDPFUv87ue08pb33G2C/RHAlIhc5i9X2PmSuG87zE3awgqPH5XFPwJYXng41qr9Rjx/RTQbEergGdsmKXXYI8lVvdS0I8qu4JIVQfYrVQuC7VfilplBE6VkXMFNayaorjdi+qdp76Vq9s5YXQ4hyE3bYH31vrJXdqjgs3xg9t46fjpE7QvjPfmBjfAW5BetIPwck/wHPQAAAABJRU5ErkJggg==",
+      "e": 1
+    },
+    {
+      "id": "image_22",
+      "w": 132,
+      "h": 155,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACbBAMAAABR6i7aAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAHlBMVEVHcEwCLlICLlEAMFADLVACLlEBLlEEMFAAMFACLlEPduvyAAAACXRSTlMAgMMWWOukQDAJ6bLNAAACC0lEQVRo3u3Zv0vDQBQH8EuTxo5JFaRbCSh0ax0Et4KIuBXrki31x9AtHd2ydmySS7n/Vqkg+XE/+wWpcG/N8eHuSN69eyETVovnaJUS42gQ30HPYYKxACcqnGAJTpQ4QXGCzXEiwYkFThQ4sceJEid2lrDESRDDKIquMOIQsxgmyCdO9HDCsYQlLPHfic3wkNai1eORxKaWXfOLqTnhfbSK0ntTopVUZQW2gLjlnBDszYSY8QRGA33Ci7kEyzNdwp0wQbzoEg9MGIEe4YgF7n2jS4iXIZhGl7iRCbzKtEPIJ8FYpibkk2BsqSRUk+DkgzbhM1VkcqIkIyUxlhP7gVLoXjhaRE9N5ApCvY7uZrT2ItYgEilRaQidN8NhxlHiRIUTVJ+g12EYvnIepJoEff85fLy1KmeIiOq3A+COFK+4gKhq598glt/sHaXQTSGFBkGbG+bG0g/N0Tn5ttKs4+gkJseY6LRjWivJlQQnz68NCU5PaGtG8Eq2fnOIihhzCN+IoLy6zDMiuO2cgREx5hZDRgS/vowNiEqnRyAnCpwQNApHBkQGEzmBiR1OFDixwIkEJwKcSHGCwATFifwkiJ0lLGEJS1jCEpb4S2KKEylOBDixxAk6h4nmYEtYwhLtH+FHEXc40ccJHyc8nCAxTjzhhI8TZI0TTgwTZDYREGdhPS5lv17dTdgc/AVh6mxhGWEFMwAAAABJRU5ErkJggg==",
+      "e": 1
+    },
+    {
+      "id": "image_23",
+      "w": 108,
+      "h": 117,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGwAAAB1BAMAAABZkRmtAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAJ1BMVEVHcEwCLlICLlEAMFAEMFADLVAAMFADLlEBLlECLlECLlICLlECLlG9xJ9+AAAADHRSTlMAgNkQQFoowKXwcJA7J6AKAAAC70lEQVRYw+2Yz2tTQRDHn77mpaYebP3VQw9KFAPmkBYECz2kNF6kh1JBKuRQglKVHKRQvXioIoiSgyWlgrxDD6IIPXjyID3oM9Wkzh9lTcn7sTszO7voQfB7Ckk+7OzszOzOeB6l2ujzR7/15O2yJ9Wds2VIVHongq48BUVdM+i/B0SXDabmWoAqusFRk2Ug1DtJU3dDAHtuEjj1FnCqELIY/KhgVFAGgzYxbAKMQsxsmCnY0w8sFGD6crsSCr4r1FURBVHWmX5ZhsHHDDYlpLJWiheDrtNi0EtvTrxY5giG5RSsJ9iOBXYupoYsKPgSY9P4H14f1Dt9099iDCsf0ctq/7fr6o+dOIjZSuUvEhhi41r6UG/hmG7jBSZeO6Qf3yjZMYVhec0bagUOMKzO54a6jQ4Rj3t8ceoQ7l8QYXnzYhjWNC+GYS0me2nMD6m8YDHVI8syTEnsr+hVNDua6Ez/mxmBjYjqZj9iyjoykr5cQuNZozdo1sZXQixnCn5cw4JTQ3TUzSPHM9hPKdZ0cqQ3T1Rcg3acQkt5wjzwnGLrhBR7/Cew6n/sn8T+dpQ4hvKEW+LU3dJ03q0ozLiVoGNuBS/vVl6PuBXznNvV4YObK8tuPlF6vW2nSwDaTjcV/ghKtDL4MAIWT4WhcBu/vGGLD/w20RVFFTY2ulR/U6TPuJUqN9MgXa6RzmStCSuy4btP+ER/z2dGB3G32DJ1D4cb21XavqbWdTxEsA9qHzAiGagsatHuh0bOH0OivY70b8/osVKb6o36fV88aQqWQjTaA3zkUTo1d2DetXGtPa069M9coPDatx5EHPp5EEb37JZbZ1poyXyg7mSkV7DBtjx2PkBNkVKJZbFckWmRmGFQxX6opj9CGjJqEytnRukjyoLAzB5yI62YMazKJGWG0kW6WjPaoHpHltsgyzzHnWfuomCMotb4e3YJj99Pxrn+C/sBfV/3FbB0U/h+uD2+OmAufZ7zbFSrzZ6u1VD3/QIJj2ewg6aAcgAAAABJRU5ErkJggg==",
+      "e": 1
+    },
+    {
+      "id": "image_24",
+      "w": 131,
+      "h": 114,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIMAAAByBAMAAACCfX/pAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAJFBMVEVHcEwCLlEDMFACLlICLlEAMFACLlEDLVADLVACL1ECLlECLlHpySspAAAAC3RSTlMAvz5/6hegUGDQkEavKAIAAAIKSURBVFjD7dm9T8JAFADwUlohsqAxMaYL4mRYGr8WFhJDNOlCDDF+LCS6sRg1Drq4OPEnMDk5sFBoELx/TkpC5Hp37115i9F7Y7n86H0371nva1zclCx1rHJNi/PHHuMjOlQTGa5lX0WwyCcTbEQnmE8nBnQipBOsQSd8OlGkEzU60acTA0MY4q8Q8SWwRSNmcRGQCatCJzJ0ImsIQxjCEIYwxD8hHDpR+BXENZ2o0IkOnajSCY9OBGTCZWQiTycydMKhEy90ok0mXEYmsmmIsc5owsRQY5MhxJfG8kaIUGcokkSOT23JiCZC2Hgyx0tH3Gn0AyFa2LmJE2Iyxw3QdA3/66dAXLKUhDCrbhcnPHg8d1lqop5YNoEGUYVynm6PaRDJPcRN66NMEI6E5LRPFhbotlQQsrOFZIPjueEeMEW8ggd8PLFvM+C5qxJYuFeeRkO9BaZNxOQIlBy12bLhK88kaQQg0dYQoh5IVDSIIZwodjSIGkxkNYgSTLj4eIZYxruKEnWMaOL9wIg8Jozx1L2HEC2cQHoy0igg5NGXkA45V4PoYS+R/NoSiRV0QzpoJQTYaifKP+EJ9WtMSsol7INXgdiugxK2YqOsA7Pmo18RcZxCV4pQWDqHBcmVINamroS+bPINnjy0vJW75edCrGza5cWQFtl2Nn6Aj4a1XJw9HMVF1/17ncbf5JkFUvprTGkAAAAASUVORK5CYII=",
+      "e": 1
+    },
+    {
+      "id": "image_25",
+      "w": 122,
+      "h": 117,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAAB1BAMAAABzIegCAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAKlBMVEVHcEwCLlIDLVADLlEEMFACLlEAMFACLlECL1EAMFACLlEAMFABLlECLlGYQiQjAAAADXRSTlMAelnAQJoQ8NAg4DCw3uVXjAAAA6RJREFUWMPtWc9L02EYf910OqdgIgqlMAkLImElHSIGs0Z0GSyFImQwqFDCQxZ5KcFDeBsoFHYZ1KXbYLe6BNKhW5Au2/q693+pLef2Ps/zPu/zNujU57j3/ex93ud9fn+VsuHV9OJcA5dGbypPxGaSuo2no9se3OjFDW0iWMhLyTsFjVE/JyOf1TQ+S6Se0Da8c0ofzWk71vJdkF30yITmscaxL2gXXtrJq9qNOzZy74aAHZQt7JyWYJ8m39cyfCEdoyRk1yiX+aCleI7JITFZV7HiZuVsfLjH0cThn3zY8PDYhu7i8GXthy2DXfBk1zvJfTbDmLPdaMT1XC/GGkYVm05Si987ggJxQrB0sjxDLbejzBBercQ7jYFQS5YRvJIyPT9pFz2CvCtIQVNEwgetpR5B+Fm1an0XLjwhHPg83LRuiUg1KnQhWz6OUFHeDFt4A209TxpajU4YkQJ58WXR0Xjf4+avU0AiW50Ab37Q/LVktWA+eNWadsR4jwmooDL+rcZk2BI29X6p4EplzK1v8W2yDDtsbj3ClsZVZlFsbeZlDtnC5CtUEfi/nywbXDwPk0iCZQ+Ym1PwweIsuweaRhgKo+RqS6hhe5QnUAAPXpQUJScwPeobUOORg50Bdgn/jccw8NEpjweDT7YPDDXrYA8BdlLo3NSD1wE77sWuAHbKwe79z/7n7BDLHunqvV3sPhBCTS/Zc7DDwM6nUHrg0A/YZir54WAXQXTIEDlZCZPwEYgWhw52DkSiQbqGs8BMW5uwRuXHEzGYb3u0R2jqg7mkV3s82TIqPbSH0k2VV6mcLFZaHZdrcbGHNeUsyi/+SCPDHNDiPAjE3MMZvbotfe3mJWGBvWllr2iiUjCVzph6jtqY0TKtw/blT64f1DKDgX1Xgm7c45LHPtlWEh0+a2nIZrWgREdtcuuMQdRH4qotilrRBJle6HYOj85SdOnbwDVAvoV2tM1iFzfISwb5Bt6wruxtrNaX23ePnCbWO56VGg7UzxwvzicdYwt6YFK5PZqenqTHIe+tSV2CMuP3ThwoycDFhqzqYthz6IgbPmMmojdnJ4t51cXhW+7BADPgIhqnh3+rcJ9Rri1fhGTTwaqlnvwoYl8VhnufIXTDWdx6r5SZItZ19SpbyL52sMf5goyn33N9MGHoVSdZqR3bFD4Yl3wnCt0lyc/Kwo9UxAA1WPD4uDZZAlyfz2u/s978YkuA4MpYXvnjQfr6qXSaa7J+AaY+2cTQxQdzAAAAAElFTkSuQmCC",
+      "e": 1
+    },
+    {
+      "id": "image_26",
+      "w": 108,
+      "h": 117,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGwAAAB1BAMAAABZkRmtAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAJ1BMVEVHcEwCLlICLlEAMFAEMFADLVAAMFABLlEDLlECLlECLlICLlECLlEQlkVsAAAADHRSTlMAgNkQQFoopsDwcJAhrSXWAAAC70lEQVRYw+2Yz2tTQRDHn77mNaYebP1RDz0oUSL4DmlBpNBDSp8X6aFUsAg5lKBQNYdWPKjkIELFgwdLSpHyDj2IIvTgyYP0oM/UmDp/lDWS5L3dmdnZRQ+C31NI8mFnZ2dmd8bzKEWjj1780tqbZU+qO2dDGKj0VgRdeQCK2mbQfweILhtMzTUAVXKDoyZDINQ5SVP3YwB7bhI4dRZwqhCzGHwvY1QQgkGbGDYBRiFm1swU7OsHFgswfbk9CQXfFOqqiIIk60w/lGHwIYNNCamsleLFoO20GEB6c6EcSx3BsJyC1QG2a4Gd61NDFhR87mPT+B9eH9Y7fdNf+xhWPpInle5v19UfW/0gZiuVv0hgiI3r6UO9hWO6jReYeG2RftxWsmMKw/KaN9QKHGBYlc8NdRstIh73+eLUIty/IMLy5sUwrG5eDMMaTPbSmB9TecFiqkeWZZiS2F/Qq2h2dKAz3W9mBDYiqpr9iCnryET6comNZ43eoFkbXwmxnCn4cQ0LTg3RUTePHM9gP6RY3cmR3jxRcQ3adQot5Qnz1HOKrRNS7OWfwCr/sX8S+9tR4hjKE26JU3VL03m3ojDjVoKOuRW8vFt5PeJWzHNuV4cPbq4M3Xyi9Ho7TpcANJ1uKvwRNNBK78MIWDwVhuId/PKGLT7wm0RXlJTZ2GhT/U2RPuNGqtxMg3S5WjqTtSasyIbvAeET/T2fGR10ylTTsY1ubE9p++pa1/Ecwd6rfcCIZKCyqEW7Hxs5fwyJ9irSvz2kx0pNqjfq9n39SVOwFKPRHuAjj9KpuUPzro1r7WnFoX/mAoXXgfUg4refe2F01265VaaFlswHqk5GegUbbMtj5wPUFCmVWBbLFZkWiRkGle2HavojpCajNrFyZpQ+oiwIzOwgN9KKGcOqzKDMULpIV2tGG1TvyHIbZJnnuPPMXRSMUdQ6f88u4fH70TjXf2w/oO/qngKWbgrfD7fHn/WYS5/mPBtF0ezpKELd9xMXvWe2DQxyNQAAAABJRU5ErkJggg==",
+      "e": 1
+    },
+    {
+      "id": "comp_0",
+      "nm": "LINE",
+      "fr": 30,
+      "layers": [
+        {
+          "ddd": 0,
+          "ind": 1,
+          "ty": 0,
+          "nm": "LINE 2",
+          "refId": "comp_1",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                960,
+                540,
+                0
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                960,
+                540,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "w": 1920,
+          "h": 1080,
+          "ip": 0,
+          "op": 450,
+          "st": 0,
+          "bm": 0
+        }
+      ]
+    },
+    {
+      "id": "comp_1",
+      "nm": "LINE 2",
+      "fr": 30,
+      "layers": [
+        {
+          "ddd": 0,
+          "ind": 1,
+          "ty": 2,
+          "nm": "LINE",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 39,
+                  "s": [
+                    1162.372,
+                    455.176,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    -3.667,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 59,
+                  "s": [
+                    1162.372,
+                    433.176,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 79,
+                  "s": [
+                    1162.372,
+                    455.176,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    4.167,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 99,
+                  "s": [
+                    1162.372,
+                    433.176,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    -4.167,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0.5,
+                    0
+                  ]
+                },
+                {
+                  "t": 120,
+                  "s": [
+                    1162.372,
+                    430.176,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                7.558,
+                46.678,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 39,
+                  "s": [
+                    100,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 59,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outExpo(t, b, c, d, a, p) {\n    return t == d ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outExpo(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            val3 = outExpo(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 39,
+          "op": 487,
+          "st": 39,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 2,
+          "ty": 2,
+          "nm": "LINE",
+          "refId": "image_1",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 36,
+                  "s": [
+                    1132.138,
+                    499.311,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    4,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 56,
+                  "s": [
+                    1132.138,
+                    523.311,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 76,
+                  "s": [
+                    1132.138,
+                    499.311,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 96,
+                  "s": [
+                    1132.138,
+                    523.311,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    4,
+                    0
+                  ]
+                },
+                {
+                  "t": 120,
+                  "s": [
+                    1132.138,
+                    499.311,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                8.56,
+                116.813,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 36,
+                  "s": [
+                    100,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 56,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outExpo(t, b, c, d, a, p) {\n    return t == d ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outExpo(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            val3 = outExpo(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 36,
+          "op": 484,
+          "st": 36,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 3,
+          "ty": 2,
+          "nm": "LINE",
+          "refId": "image_2",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 33,
+                  "s": [
+                    1098.401,
+                    529.985,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    -8.5,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 53,
+                  "s": [
+                    1098.401,
+                    478.985,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 73,
+                  "s": [
+                    1098.401,
+                    529.985,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 93,
+                  "s": [
+                    1098.401,
+                    478.985,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    -8.5,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 0.667
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0.333
+                  },
+                  "t": 108,
+                  "s": [
+                    1098.401,
+                    529.985,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "t": 120,
+                  "s": [
+                    1098.401,
+                    529.985,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                6.062,
+                233.377,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 33,
+                  "s": [
+                    100,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 53,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outExpo(t, b, c, d, a, p) {\n    return t == d ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outExpo(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            val3 = outExpo(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 33,
+          "op": 481,
+          "st": 33,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 4,
+          "ty": 2,
+          "nm": "LINE",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 30,
+                  "s": [
+                    1069.669,
+                    499.748,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    4.667,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 50,
+                  "s": [
+                    1069.669,
+                    527.748,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 70,
+                  "s": [
+                    1069.669,
+                    499.748,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 90,
+                  "s": [
+                    1069.669,
+                    527.748,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    4.667,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 0.667
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0.333
+                  },
+                  "t": 110,
+                  "s": [
+                    1069.669,
+                    499.748,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "t": 120,
+                  "s": [
+                    1069.669,
+                    499.748,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                8.559,
+                234.376,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 30,
+                  "s": [
+                    100,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 50,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outExpo(t, b, c, d, a, p) {\n    return t == d ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outExpo(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            val3 = outExpo(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 30,
+          "op": 478,
+          "st": 30,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 5,
+          "ty": 2,
+          "nm": "LINE",
+          "refId": "image_4",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 27,
+                  "s": [
+                    1037.937,
+                    496.937,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    -6.833,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 47,
+                  "s": [
+                    1037.937,
+                    455.937,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 67,
+                  "s": [
+                    1037.937,
+                    496.937,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 87,
+                  "s": [
+                    1037.937,
+                    455.937,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    -6.833,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 0.667
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0.333
+                  },
+                  "t": 107,
+                  "s": [
+                    1037.937,
+                    496.937,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "t": 120,
+                  "s": [
+                    1037.937,
+                    496.937,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                8.057,
+                247.187,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 27,
+                  "s": [
+                    100,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 47,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outExpo(t, b, c, d, a, p) {\n    return t == d ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outExpo(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            val3 = outExpo(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 27,
+          "op": 475,
+          "st": 27,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 6,
+          "ty": 2,
+          "nm": "LINE",
+          "refId": "image_5",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 24,
+                  "s": [
+                    1006.205,
+                    499.937,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    4.167,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 44,
+                  "s": [
+                    1006.205,
+                    524.937,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 64,
+                  "s": [
+                    1006.205,
+                    499.937,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 84,
+                  "s": [
+                    1006.205,
+                    524.937,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    4.167,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 0.667
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0.333
+                  },
+                  "t": 104,
+                  "s": [
+                    1006.205,
+                    499.937,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "t": 120,
+                  "s": [
+                    1006.205,
+                    499.937,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                7.557,
+                250.187,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 24,
+                  "s": [
+                    100,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 44,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outExpo(t, b, c, d, a, p) {\n    return t == d ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outExpo(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            val3 = outExpo(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 24,
+          "op": 472,
+          "st": 24,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 7,
+          "ty": 2,
+          "nm": "LINE",
+          "refId": "image_6",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 21,
+                  "s": [
+                    973.964,
+                    498.937,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    -6.167,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 41,
+                  "s": [
+                    973.964,
+                    461.937,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 61,
+                  "s": [
+                    973.964,
+                    498.937,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 81,
+                  "s": [
+                    973.964,
+                    461.937,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    -6.167,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 0.667
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0.333
+                  },
+                  "t": 101,
+                  "s": [
+                    973.964,
+                    498.937,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "t": 120,
+                  "s": [
+                    973.964,
+                    498.937,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                6.56,
+                249.187,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 21,
+                  "s": [
+                    100,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 41,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outExpo(t, b, c, d, a, p) {\n    return t == d ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outExpo(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            val3 = outExpo(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 21,
+          "op": 469,
+          "st": 21,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 8,
+          "ty": 2,
+          "nm": "LINE",
+          "refId": "image_7",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 18,
+                  "s": [
+                    943.729,
+                    498.437,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    3.667,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 38,
+                  "s": [
+                    943.729,
+                    520.437,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 58,
+                  "s": [
+                    943.729,
+                    498.437,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 78,
+                  "s": [
+                    943.729,
+                    520.437,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    3.667,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 0.667
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0.333
+                  },
+                  "t": 98,
+                  "s": [
+                    943.729,
+                    498.437,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "t": 120,
+                  "s": [
+                    943.729,
+                    498.437,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                7.559,
+                248.687,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 18,
+                  "s": [
+                    100,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 38,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outExpo(t, b, c, d, a, p) {\n    return t == d ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outExpo(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            val3 = outExpo(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 18,
+          "op": 466,
+          "st": 18,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 9,
+          "ty": 2,
+          "nm": "LINE",
+          "refId": "image_8",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 15,
+                  "s": [
+                    913.487,
+                    499.437,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    -5.167,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 35,
+                  "s": [
+                    913.487,
+                    468.437,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 55,
+                  "s": [
+                    913.487,
+                    499.437,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 75,
+                  "s": [
+                    913.487,
+                    468.437,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    -5.167,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 0.667
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0.333
+                  },
+                  "t": 95,
+                  "s": [
+                    913.487,
+                    499.437,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "t": 120,
+                  "s": [
+                    913.487,
+                    499.437,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                8.557,
+                249.687,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 15,
+                  "s": [
+                    100,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 35,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outExpo(t, b, c, d, a, p) {\n    return t == d ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outExpo(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            val3 = outExpo(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 15,
+          "op": 463,
+          "st": 15,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 10,
+          "ty": 2,
+          "nm": "LINE",
+          "refId": "image_9",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 12,
+                  "s": [
+                    881.255,
+                    499.437,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    4.333,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 32,
+                  "s": [
+                    881.255,
+                    525.437,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 52,
+                  "s": [
+                    881.255,
+                    499.437,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 72,
+                  "s": [
+                    881.255,
+                    525.437,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 92,
+                  "s": [
+                    881.255,
+                    499.437,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 107,
+                  "s": [
+                    881.255,
+                    525.437,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    4.333,
+                    0
+                  ]
+                },
+                {
+                  "t": 120,
+                  "s": [
+                    881.255,
+                    499.437,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                7.557,
+                249.687,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 12,
+                  "s": [
+                    100,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 32,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outExpo(t, b, c, d, a, p) {\n    return t == d ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outExpo(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            val3 = outExpo(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 12,
+          "op": 460,
+          "st": 12,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 11,
+          "ty": 2,
+          "nm": "LINE",
+          "refId": "image_10",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 9,
+                  "s": [
+                    850.024,
+                    501.248,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    -4.333,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 29,
+                  "s": [
+                    850.024,
+                    475.248,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 49,
+                  "s": [
+                    850.024,
+                    501.248,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 69,
+                  "s": [
+                    850.024,
+                    475.248,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 89,
+                  "s": [
+                    850.024,
+                    501.248,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 105,
+                  "s": [
+                    850.024,
+                    475.248,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    -4.333,
+                    0
+                  ]
+                },
+                {
+                  "t": 120,
+                  "s": [
+                    850.024,
+                    501.248,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                7.558,
+                235.876,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 9,
+                  "s": [
+                    100,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 29,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outExpo(t, b, c, d, a, p) {\n    return t == d ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outExpo(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            val3 = outExpo(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 9,
+          "op": 457,
+          "st": 9,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 12,
+          "ty": 2,
+          "nm": "LINE",
+          "refId": "image_11",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 6,
+                  "s": [
+                    817.292,
+                    529.985,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    3.417,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 26,
+                  "s": [
+                    817.292,
+                    550.485,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 46,
+                  "s": [
+                    817.292,
+                    529.985,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 66,
+                  "s": [
+                    817.292,
+                    550.485,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 86,
+                  "s": [
+                    817.292,
+                    529.985,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 106,
+                  "s": [
+                    817.292,
+                    550.485,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    3.417,
+                    0
+                  ]
+                },
+                {
+                  "t": 120,
+                  "s": [
+                    817.292,
+                    529.985,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                6.062,
+                233.377,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 6,
+                  "s": [
+                    100,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 26,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outExpo(t, b, c, d, a, p) {\n    return t == d ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outExpo(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            val3 = outExpo(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 6,
+          "op": 454,
+          "st": 6,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 13,
+          "ty": 2,
+          "nm": "LINE",
+          "refId": "image_12",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 3,
+                  "s": [
+                    787.555,
+                    503.311,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    -4.667,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 23,
+                  "s": [
+                    787.555,
+                    475.311,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 43,
+                  "s": [
+                    787.555,
+                    503.311,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 63,
+                  "s": [
+                    787.555,
+                    475.311,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 83,
+                  "s": [
+                    787.555,
+                    503.311,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 103,
+                  "s": [
+                    787.555,
+                    475.311,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    -4.667,
+                    0
+                  ]
+                },
+                {
+                  "t": 120,
+                  "s": [
+                    787.555,
+                    503.311,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                7.56,
+                120.813,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 3,
+                  "s": [
+                    100,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 23,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outExpo(t, b, c, d, a, p) {\n    return t == d ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outExpo(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            val3 = outExpo(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 3,
+          "op": 451,
+          "st": 3,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 14,
+          "ty": 2,
+          "nm": "LINE",
+          "refId": "image_13",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 0,
+                  "s": [
+                    756.82,
+                    430.676,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    3.083,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 20,
+                  "s": [
+                    756.82,
+                    449.176,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 40,
+                  "s": [
+                    756.82,
+                    430.676,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 60,
+                  "s": [
+                    756.82,
+                    449.176,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 80,
+                  "s": [
+                    756.82,
+                    430.676,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "i": {
+                    "x": 0.667,
+                    "y": 1
+                  },
+                  "o": {
+                    "x": 0.333,
+                    "y": 0
+                  },
+                  "t": 100,
+                  "s": [
+                    756.82,
+                    449.176,
+                    0
+                  ],
+                  "to": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "ti": [
+                    0,
+                    3.083,
+                    0
+                  ]
+                },
+                {
+                  "t": 120,
+                  "s": [
+                    756.82,
+                    430.676,
+                    0
+                  ]
+                }
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                8.059,
+                48.178,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    100,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 20,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outExpo(t, b, c, d, a, p) {\n    return t == d ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outExpo(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outExpo(t, sY, eY, d, a, p, s);\n            val3 = outExpo(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "hasMask": true,
+          "masksProperties": [
+            {
+              "inv": false,
+              "mode": "n",
+              "pt": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "o": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "v": [
+                    [
+                      9.739,
+                      46.502
+                    ],
+                    [
+                      8.239,
+                      24.502
+                    ],
+                    [
+                      9.739,
+                      -0.498
+                    ]
+                  ],
+                  "c": false
+                },
+                "ix": 1
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 3
+              },
+              "x": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "nm": "Mask 1"
+            }
+          ],
+          "ip": 0,
+          "op": 448,
+          "st": 0,
+          "bm": 0
+        }
+      ]
+    },
+    {
+      "id": "comp_2",
+      "nm": "Couch Concerts Logo 02",
+      "fr": 30,
+      "layers": [
+        {
+          "ddd": 0,
+          "ind": 1,
+          "ty": 0,
+          "nm": "CONSERT",
+          "refId": "comp_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                958,
+                860,
+                0
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                958,
+                860,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "w": 1920,
+          "h": 1080,
+          "ip": 30,
+          "op": 480,
+          "st": 30,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 2,
+          "ty": 0,
+          "nm": "COUCH",
+          "refId": "comp_4",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                960,
+                668,
+                0
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                960,
+                668,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                100
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "w": 1920,
+          "h": 1080,
+          "ip": 0,
+          "op": 450,
+          "st": 0,
+          "bm": 0
+        }
+      ]
+    },
+    {
+      "id": "comp_3",
+      "nm": "CONSERT",
+      "fr": 30,
+      "layers": [
+        {
+          "ddd": 0,
+          "ind": 1,
+          "ty": 2,
+          "nm": "S",
+          "refId": "image_14",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                1341.04,
+                854.756,
+                0
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                40.33,
+                57.493,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 35,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 55,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outBack(t, b, c, d, a, p) {\n    if (s == null)\n        s = 1.70158;\n    return $bm_sum($bm_mul(c, $bm_sum($bm_mul($bm_mul(t = t / d - 1, t), $bm_sum($bm_mul($bm_sum(s, 1), t), s)), 1)), b);\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outBack(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            val3 = outBack(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 35,
+          "op": 487,
+          "st": 35,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 2,
+          "ty": 2,
+          "nm": "T",
+          "refId": "image_15",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                1257.076,
+                840.094,
+                0
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                29.576,
+                70.416,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 30,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 50,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outBack(t, b, c, d, a, p) {\n    if (s == null)\n        s = 1.70158;\n    return $bm_sum($bm_mul(c, $bm_sum($bm_mul($bm_mul(t = t / d - 1, t), $bm_sum($bm_mul($bm_sum(s, 1), t), s)), 1)), b);\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outBack(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            val3 = outBack(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 30,
+          "op": 482,
+          "st": 30,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 3,
+          "ty": 2,
+          "nm": "R",
+          "refId": "image_16",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                1182.665,
+                854.213,
+                0
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                34.681,
+                55.431,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 25,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 45,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outBack(t, b, c, d, a, p) {\n    if (s == null)\n        s = 1.70158;\n    return $bm_sum($bm_mul(c, $bm_sum($bm_mul($bm_mul(t = t / d - 1, t), $bm_sum($bm_mul($bm_sum(s, 1), t), s)), 1)), b);\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outBack(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            val3 = outBack(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 25,
+          "op": 477,
+          "st": 25,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 4,
+          "ty": 2,
+          "nm": "E",
+          "refId": "image_17",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                1082.714,
+                854.756,
+                0
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                50.104,
+                57.494,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 20,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 40,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outBack(t, b, c, d, a, p) {\n    if (s == null)\n        s = 1.70158;\n    return $bm_sum($bm_mul(c, $bm_sum($bm_mul($bm_mul(t = t / d - 1, t), $bm_sum($bm_mul($bm_sum(s, 1), t), s)), 1)), b);\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outBack(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            val3 = outBack(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 20,
+          "op": 472,
+          "st": 20,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 5,
+          "ty": 2,
+          "nm": "C",
+          "refId": "image_18",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                968.211,
+                854.756,
+                0
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                50.32,
+                57.493,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 15,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 35,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outBack(t, b, c, d, a, p) {\n    if (s == null)\n        s = 1.70158;\n    return $bm_sum($bm_mul(c, $bm_sum($bm_mul($bm_mul(t = t / d - 1, t), $bm_sum($bm_mul($bm_sum(s, 1), t), s)), 1)), b);\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outBack(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            val3 = outBack(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 15,
+          "op": 467,
+          "st": 15,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 6,
+          "ty": 2,
+          "nm": "N",
+          "refId": "image_19",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                843.619,
+                853.454,
+                0
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                61.513,
+                56.191,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 10,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 30,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outBack(t, b, c, d, a, p) {\n    if (s == null)\n        s = 1.70158;\n    return $bm_sum($bm_mul(c, $bm_sum($bm_mul($bm_mul(t = t / d - 1, t), $bm_sum($bm_mul($bm_sum(s, 1), t), s)), 1)), b);\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outBack(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            val3 = outBack(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 10,
+          "op": 462,
+          "st": 10,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 7,
+          "ty": 2,
+          "nm": "O",
+          "refId": "image_20",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                710.972,
+                854.757,
+                0
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                57.932,
+                57.493,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 5,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 25,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outBack(t, b, c, d, a, p) {\n    if (s == null)\n        s = 1.70158;\n    return $bm_sum($bm_mul(c, $bm_sum($bm_mul($bm_mul(t = t / d - 1, t), $bm_sum($bm_mul($bm_sum(s, 1), t), s)), 1)), b);\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outBack(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            val3 = outBack(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 5,
+          "op": 457,
+          "st": 5,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 8,
+          "ty": 2,
+          "nm": "C",
+          "refId": "image_21",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                588.647,
+                854.756,
+                0
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                50.326,
+                57.493,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 20,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outBack(t, b, c, d, a, p) {\n    if (s == null)\n        s = 1.70158;\n    return $bm_sum($bm_mul(c, $bm_sum($bm_mul($bm_mul(t = t / d - 1, t), $bm_sum($bm_mul($bm_sum(s, 1), t), s)), 1)), b);\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outBack(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            val3 = outBack(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 452,
+          "st": 0,
+          "bm": 0
+        }
+      ]
+    },
+    {
+      "id": "comp_4",
+      "nm": "COUCH",
+      "fr": 30,
+      "layers": [
+        {
+          "ddd": 0,
+          "ind": 1,
+          "ty": 2,
+          "nm": "H",
+          "refId": "image_22",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                1211.766,
+                648.026,
+                0
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                65.856,
+                77.373,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 20,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 40,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outBack(t, b, c, d, a, p) {\n    if (s == null)\n        s = 1.70158;\n    return $bm_sum($bm_mul(c, $bm_sum($bm_mul($bm_mul(t = t / d - 1, t), $bm_sum($bm_mul($bm_sum(s, 1), t), s)), 1)), b);\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outBack(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            val3 = outBack(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 20,
+          "op": 457,
+          "st": 20,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 2,
+          "ty": 2,
+          "nm": "C",
+          "refId": "image_23",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                1086.514,
+                669.752,
+                0
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                53.583,
+                58.254,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 15,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 35,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outBack(t, b, c, d, a, p) {\n    if (s == null)\n        s = 1.70158;\n    return $bm_sum($bm_mul(c, $bm_sum($bm_mul($bm_mul(t = t / d - 1, t), $bm_sum($bm_mul($bm_sum(s, 1), t), s)), 1)), b);\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outBack(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            val3 = outBack(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 15,
+          "op": 452,
+          "st": 15,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 3,
+          "ty": 2,
+          "nm": "U",
+          "refId": "image_24",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                956.805,
+                671.055,
+                0
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                65.313,
+                56.95,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 10,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 30,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outBack(t, b, c, d, a, p) {\n    if (s == null)\n        s = 1.70158;\n    return $bm_sum($bm_mul(c, $bm_sum($bm_mul($bm_mul(t = t / d - 1, t), $bm_sum($bm_mul($bm_sum(s, 1), t), s)), 1)), b);\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outBack(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            val3 = outBack(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 10,
+          "op": 447,
+          "st": 10,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 4,
+          "ty": 2,
+          "nm": "O",
+          "refId": "image_25",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                819.931,
+                669.751,
+                0
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                60.969,
+                58.253,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 5,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 25,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outBack(t, b, c, d, a, p) {\n    if (s == null)\n        s = 1.70158;\n    return $bm_sum($bm_mul(c, $bm_sum($bm_mul($bm_mul(t = t / d - 1, t), $bm_sum($bm_mul($bm_sum(s, 1), t), s)), 1)), b);\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outBack(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            val3 = outBack(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 5,
+          "op": 442,
+          "st": 5,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 5,
+          "ty": 2,
+          "nm": "C",
+          "refId": "image_26",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                695.652,
+                669.752,
+                0
+              ],
+              "ix": 2,
+              "l": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                53.583,
+                58.254,
+                0
+              ],
+              "ix": 1,
+              "l": 2
+            },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [
+                      0.667,
+                      0.667,
+                      0.667
+                    ],
+                    "y": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "o": {
+                    "x": [
+                      0.333,
+                      0.333,
+                      0.333
+                    ],
+                    "y": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "t": 0,
+                  "s": [
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                {
+                  "t": 20,
+                  "s": [
+                    100,
+                    100,
+                    100
+                  ]
+                }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar p = 0.8;\nvar a = 50;\nvar s = 1.70158;\nfunction outBack(t, b, c, d, a, p) {\n    if (s == null)\n        s = 1.70158;\n    return $bm_sum($bm_mul(c, $bm_sum($bm_mul($bm_mul(t = t / d - 1, t), $bm_sum($bm_mul($bm_sum(s, 1), t), s)), 1)), b);\n}\nfunction easeAndWizz() {\n    var t, d, sX, eX, sY, eY, sZ, eZ, val1, val2, val2, val3;\n    var n = 0;\n    if (numKeys > 0) {\n        n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    try {\n        var key1 = key(n);\n        var key2 = key($bm_sum(n, 1));\n    } catch (e) {\n        return null;\n    }\n    var dim = 1;\n    try {\n        key(1)[1].length;\n        dim = 2;\n        key(1)[2].length;\n        dim = 3;\n    } catch (e) {\n    }\n    t = $bm_sub(time, key1.time);\n    d = $bm_sub(key2.time, key1.time);\n    sX = key1[0];\n    eX = $bm_sub(key2[0], key1[0]);\n    if (dim >= 2) {\n        sY = key1[1];\n        eY = $bm_sub(key2[1], key1[1]);\n        if (dim >= 3) {\n            sZ = key1[2];\n            eZ = $bm_sub(key2[2], key1[2]);\n        }\n    }\n    if (time < key1.time || time > key2.time) {\n        return value;\n    } else {\n        val1 = outBack(t, sX, eX, d, a, p, s);\n        switch (dim) {\n        case 1:\n            return val1;\n            break;\n        case 2:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            return [\n                val1,\n                val2\n            ];\n            break;\n        case 3:\n            val2 = outBack(t, sY, eY, d, a, p, s);\n            val3 = outBack(t, sZ, eZ, d, a, p, s);\n            return [\n                val1,\n                val2,\n                val3\n            ];\n            break;\n        default:\n            return null;\n        }\n    }\n}\n$bm_rt = easeAndWizz() || value;"
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 437,
+          "st": 0,
+          "bm": 0
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ddd": 0,
+      "ind": 1,
+      "ty": 0,
+      "nm": "LINE",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            959.865,
+            480.595,
+            0
+          ],
+          "ix": 2,
+          "l": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            960,
+            540,
+            0
+          ],
+          "ix": 1,
+          "l": 2
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            114,
+            114,
+            100
+          ],
+          "ix": 6,
+          "l": 2
+        }
+      },
+      "ao": 0,
+      "w": 1920,
+      "h": 1080,
+      "ip": 0,
+      "op": 450,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 2,
+      "ty": 0,
+      "nm": "Couch Concerts Logo 02",
+      "refId": "comp_2",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            960,
+            540,
+            0
+          ],
+          "ix": 2,
+          "l": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            960,
+            540,
+            0
+          ],
+          "ix": 1,
+          "l": 2
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6,
+          "l": 2
+        }
+      },
+      "ao": 0,
+      "w": 1920,
+      "h": 1080,
+      "ip": 30,
+      "op": 480,
+      "st": 30,
+      "bm": 0
+    }
+  ],
+  "markers": [],
+  "props": {}
+}
