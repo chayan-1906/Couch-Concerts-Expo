@@ -1,10 +1,11 @@
-import {ActivityIndicator, FlatList, RefreshControl, ScrollView, Text, TouchableOpacity, View} from "react-native";
+import {FlatList, RefreshControl, ScrollView, Text, TouchableOpacity, View} from "react-native";
 import {useCouchConcertsContext} from "../../contexts/CouchConcertsContext";
 import {DoubleRightArrowIcon} from "../../globals/icons";
 import Colors from "../../constants/Colors";
 import {useEffect} from "react";
 import DiscoverCard from "../../components/discover/DiscoverCard";
 import isListEmpty from "../../globals/functions/isListEmpty";
+import Loader from "../../components/reusable/Loader";
 
 function ScoutTab() {
     let {discover_loading, discover_response, discover_error, discoverApi} = useCouchConcertsContext();
@@ -18,9 +19,7 @@ function ScoutTab() {
     /** loader */
     if (discover_loading) {
         return (
-            <View className={'flex flex-1 justify-center items-center bg-primary'}>
-                <ActivityIndicator color={Colors.gray["100"]}/>
-            </View>
+            <Loader/>
         );
     }
 

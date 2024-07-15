@@ -1,6 +1,6 @@
 import {Image, Keyboard, Text, TouchableOpacity, View} from "react-native";
 import {useLocalSearchParams, useRouter} from "expo-router";
-import {scoutPath, verifyPath} from "../../globals/Routes";
+import {guestProfilePath, verifyPath} from "../../globals/Routes";
 import PhoneNumberInput from "../../components/inputs/PhoneNumberInput";
 import {useEffect, useState} from "react";
 import {ArrowRightIcon} from "../../globals/icons";
@@ -50,7 +50,7 @@ function LoginPage() {
             </View>
 
             {/** continue without logging in */}
-            <TouchableOpacity className={'flex flex-row p-3 w-full justify-center items-center'} onPress={() => router.replace(scoutPath)}>
+            <TouchableOpacity className={'flex flex-row p-3 w-full justify-center items-center'} onPress={() => router.replace(guestProfilePath)}>
                 <Text className={'text-primary-foreground font-mSemiBold mr-2'}>Continue without logging in</Text>
                 <ArrowRightIcon color={'white'} size={20}/>
             </TouchableOpacity>

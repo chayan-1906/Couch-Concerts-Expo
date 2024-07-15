@@ -79,6 +79,7 @@ import buildHeader from "../globals/functions/buildHeader";
 import {showErrorToast, showInfoToast, showSuccessToast} from "../globals/functions/showToast";
 import {useRouter} from "expo-router";
 import {guestProfilePath} from "../globals/Routes";
+import getCurrentUser from "../globals/functions/getCurrentUser";
 
 const initialState = {
     /** SEND OTP */
@@ -378,36 +379,38 @@ export const CouchConcertsProvider = ({children}) => {
         }
     }
 
-    const myDetailsPersonApi = async (pastEvents = false, token) => {
-        printInConsole(`myDetailsPersonApi called - ${token}`);
-        try {
-            dispatch({type: MY_DETAILS_PERSON_BEGIN});
-            printInConsole(`myDetailsPersonApi url: ${my_details_person_url(pastEvents)}`);
-            const response = await axios.get(my_details_person_url(pastEvents),
-                {
-                    headers: buildHeader(isLoggedIn, token)
-                }
-            );
-            printInConsole(`myDetailsPersonApi response status: ${response.status}`);
-            // printInConsole(`myDetailsPersonApi response body: ${JSON.stringify(response.data.person)}`);
-            if (response.status === 200) {
-                const responseData = response.data.person;
-                storeInLocalStorage('personId', responseData.personId);
-                storeInLocalStorage('isArtist', responseData.isArtist);
-                storeInLocalStorage('isVenue', responseData.isVenue);
-                storeInLocalStorage('artists', responseData.artists);
-                storeInLocalStorage('venues', responseData.venues);
+    const myDetailsPersonApi = async ({pastEvents = false}) => {
+        let currentUser = await getCurrentUser();
 
-                // storeInLocalStorage('artists', JSON.stringify(response.data.artists.map(artist => artist.artistId)));
-                // storeInLocalStorage('venues', JSON.stringify(response.data.venues.map(venue => venue.venueId)));
-                dispatch({type: MY_DETAILS_PERSON_SUCCESS, payload: responseData});
+        if (currentUser.authToken) {
+            printInConsole(`myDetailsPersonApi called`);
+            try {
+                dispatch({type: MY_DETAILS_PERSON_BEGIN});
+                printInConsole(`myDetailsPersonApi url: ${my_details_person_url(pastEvents)}`);
+                const response = await axios.get(my_details_person_url(pastEvents),
+                    {
+                        headers: await buildHeader(),
+                    }
+                );
+                printInConsole(`myDetailsPersonApi response status: ${response.status}`);
+                // printInConsole(`myDetailsPersonApi response body: ${JSON.stringify(response.data.person)}`);
+                if (response.status === 200) {
+                    const responseData = response.data.person;
+                    storeInLocalStorage('personId', responseData.personId);
+                    storeInLocalStorage('isArtist', responseData.isArtist);
+                    storeInLocalStorage('isVenue', responseData.isVenue);
+                    storeInLocalStorage('artists', responseData.artists);
+                    storeInLocalStorage('venues', responseData.venues);
+
+                    // storeInLocalStorage('artists', JSON.stringify(response.data.artists.map(artist => artist.artistId)));
+                    // storeInLocalStorage('venues', JSON.stringify(response.data.venues.map(venue => venue.venueId)));
+                    dispatch({type: MY_DETAILS_PERSON_SUCCESS, payload: responseData});
+                }
+                // return response.data;
+            } catch (error) {
+                dispatch({type: MY_DETAILS_PERSON_ERROR, payload: error.message});
+                printInConsole(`myDetailsPersonApi error: ${error.message}`);
             }
-            // return response.data;
-        } catch (error) {
-            dispatch({type: MY_DETAILS_PERSON_ERROR, payload: error.message});
-            printInConsole(`myDetailsPersonApi error: ${error.message}`);
-            // navigate(errorPath)
-            // return null
         }
     }
 
@@ -419,7 +422,7 @@ export const CouchConcertsProvider = ({children}) => {
             printInConsole(`getPersonByIdApi url: ${get_person_by_id_url(personId)}`)
             const response = await axios.get(get_person_by_id_url(personId),
                 {
-                    headers: buildHeader(isLoggedIn)
+                    headers: await buildHeader(),
                 }
             )
             printInConsole(`getPersonByIdApi response status: ${response.status}`)
@@ -447,7 +450,7 @@ export const CouchConcertsProvider = ({children}) => {
             let url = await discover_url();
             printInConsole(`discoverApi url: ${url}`);
             const response = await axios.get(url, {
-                headers: buildHeader(isLoggedIn),
+                headers: await buildHeader(),
             });
             printInConsole(`discoverApi response status: ${response.status}`);
             // printInConsole(`discoverApi response body: ${JSON.stringify(response.data)}`);
@@ -475,7 +478,7 @@ export const CouchConcertsProvider = ({children}) => {
             });
             printInConsole(`exploreApi url: ${url}`);
             const response = await axios.get(url, {
-                headers: buildHeader(isLoggedIn)
+                headers: await buildHeader(),
             });
             printInConsole(`exploreApi response status: ${response.status}`);
             // printInConsole(`exploreApi response body: ${JSON.stringify(response.data)}`);
@@ -498,7 +501,7 @@ export const CouchConcertsProvider = ({children}) => {
             let url = get_event_by_id_url({isLoggedIn, eventId: eventId, personId: fetchFromLocalStorage('personId')})
             printInConsole(`getEventByIdApi url: ${url}`)
             const response = await axios.get(url, {
-                headers: buildHeader(isLoggedIn)
+                headers: await buildHeader(),
             })
             printInConsole(`getEventByIdApi response status: ${response.status}`);
             // printInConsole(`getEventByIdApi response body: ${JSON.stringify(response.data)}`);
@@ -527,7 +530,7 @@ export const CouchConcertsProvider = ({children}) => {
             });
             printInConsole(`getArtistByIdApi url: ${url}`);
             const response = await axios.get(url, {
-                headers: buildHeader(isLoggedIn),
+                headers: await buildHeader(),
             });
             printInConsole(`getArtistByIdApi response status: ${response.status}`);
             // printInConsole(`getArtistByIdApi response body: ${JSON.stringify(response.data)}`);
@@ -551,7 +554,7 @@ export const CouchConcertsProvider = ({children}) => {
             let url = get_event_by_invite_id_url({inviteId: inviteId, personId: fetchFromLocalStorage('personId')});
             printInConsole(`getEventByInviteIdApi url: ${url}`);
             const response = await axios.get(url, {
-                headers: buildHeader(isLoggedIn),
+                headers: await buildHeader(),
             });
             printInConsole(`getEventByInviteIdApi response status: ${response.status}`);
             // printInConsole(`getEventByInviteIdApi response body: ${JSON.stringify(response.data)}`);
@@ -575,7 +578,7 @@ export const CouchConcertsProvider = ({children}) => {
             let url = get_invite_details_by_invite_id_url(inviteId);
             printInConsole(`getInviteDetailsByInviteIdApi url: ${url}`);
             const response = await axios.get(url, {
-                headers: buildHeader(isLoggedIn),
+                headers: await buildHeader(),
             });
             printInConsole(`getInviteDetailsByInviteIdApi response status: ${response.status}`);
             // printInConsole(`getInviteDetailsByInviteIdApi response body: ${JSON.stringify(response.data)}`);

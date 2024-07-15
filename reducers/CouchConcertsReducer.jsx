@@ -136,6 +136,8 @@ const CouchConcertsReducer = (state, action) => {
                 my_details_person_success: true,
                 my_details_person_error: false,
                 person: action.payload,
+                upcoming_events_list: action.payload.events,
+                past_events_list: action.payload.pastEvents,
             }
         case MY_DETAILS_PERSON_ERROR:
             return {

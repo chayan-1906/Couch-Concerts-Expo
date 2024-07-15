@@ -1,12 +1,14 @@
-function buildHeader(authToken) {
-    // printInConsole(`loggedIn: ${loggedIn}`);
+import getCurrentUser from "./getCurrentUser";
 
-    if (authToken) {
+async function buildHeader() {
+    let currentUser = await getCurrentUser();
+
+    if (currentUser.authToken) {
         return {
-            'x-auth-token': /*fetchFromLocalStorage('authToken') || */authToken,
+            'x-auth-token': currentUser.authToken,
             'Content-Type': 'application/json',
             'Charset': 'UTF-8',
-        }
+        };
     }
 }
 

@@ -1,10 +1,11 @@
 import {Tabs} from 'expo-router';
-import React from 'react';
+import React, {useEffect} from 'react';
 import {ArtistProfileIcon, GuestProfileIcon, HostProfileIcon, ScoutIcon, SearchIcon} from "../../globals/icons";
 import {View} from "react-native";
 import HeaderTitle from "../../components/reusable/HeaderTitle";
 import Colors from "../../constants/Colors";
 import {useCouchConcertsContext} from "../../contexts/CouchConcertsContext";
+import getCurrentUser from "../../globals/functions/getCurrentUser";
 
 const searchTitle = 'Search';
 const scoutTitle = 'Scout';
@@ -13,7 +14,23 @@ const artistProfileTitle = 'Artist';
 const hostProfileTitle = 'Host';
 
 function TabsLayout() {
-    let {isLoggedIn} = useCouchConcertsContext();
+    // TODO: Define myDetailsArtistApi, myDetailsVenueApi
+    let {isLoggedIn, myDetailsPersonApi, myDetailsArtistApi, myDetailsVenueApi} = useCouchConcertsContext();
+
+    useEffect(() => {
+        async function callMyDetailsApi() {
+            let currentUser = await getCurrentUser();
+
+            myDetailsPersonApi({token: currentUser.authToken});
+            // call myDetailsArtistApi
+            // myDetailsArtistApi();
+
+            // call myDetailsVenueApi
+            // myDetailsVenueApi();
+        }
+
+        callMyDetailsApi();
+    }, []);
 
     return (
         <Tabs screenOptions={{

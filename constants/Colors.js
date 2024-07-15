@@ -1,5 +1,6 @@
 let Colors = {
     primary: '#000000',
+    white: '#FFF',
     'primary-foreground': '#FFF',
     secondary: {
         DEFAULT: '#FF7B00',
