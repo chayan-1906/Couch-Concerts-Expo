@@ -1,17 +1,21 @@
-import {Text, TouchableOpacity} from 'react-native';
-import {SafeAreaView} from "react-native-safe-area-context";
+import {Image, Text, TouchableOpacity} from 'react-native';
 import {MaterialIcons} from "@expo/vector-icons";
 import {useCouchConcertsContext} from "../../../contexts/CouchConcertsContext";
 import {useRouter} from "expo-router";
 import {loginPath} from "../../../globals/Routes";
+import ParallaxScrollView from "../../../components/ParallaxScrollView";
+import getSignedUrl from "../../../globals/functions/getSignedUrl";
 
 function GuestProfile() {
-    let {logout} = useCouchConcertsContext();
+    let {logout, person} = useCouchConcertsContext();
     let router = useRouter();
 
+    let {image} = person || {};
+
     return (
-        <SafeAreaView className={'flex flex-1 justify-center items-center bg-primary space-y-20'}>
-            <Text className={'text-primary-foreground text-3xl font-mMedium'}>Guest Profile</Text>
+        <ParallaxScrollView headerImage={<Image source={{uri: getSignedUrl(image)}} resizeMode={'contain'} className={'w-40 h-40 rounded-full'}/>}>
+
+            <Text className={'text-black'}>{person?.personId}</Text>
 
             <TouchableOpacity onPress={() => {
                 logout();
@@ -19,7 +23,7 @@ function GuestProfile() {
             }}>
                 <MaterialIcons name="logout" size={24} color="white"/>
             </TouchableOpacity>
-        </SafeAreaView>
+        </ParallaxScrollView>
     );
 }
 

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "couch-concerts-expo",
-    "slug": "couch-concerts-expo",
+    "name": "couch-concerts",
+    "slug": "couch-concerts",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,6 +15,22 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "8ec8b3bc-7b11-40f0-bbf4-5d804841dc85"
+      }
+    },
+    "owner": "c-concerts",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8ec8b3bc-7b11-40f0-bbf4-5d804841dc85"
+    },
+    "android": {}
   }
 }
