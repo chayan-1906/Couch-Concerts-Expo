@@ -1,5 +1,6 @@
 import Colors from "../../constants/Colors";
 import {OtpInput} from "react-native-otp-entry";
+import {Keyboard} from "react-native";
 
 function OTPInput({otp, setOtp, isValid, setIsValid}) {
     return (
@@ -10,6 +11,7 @@ function OTPInput({otp, setOtp, isValid, setIsValid}) {
                 setOtp(text);
                 if (text.length === 6) setIsValid(true);
                 else setIsValid(false);
+                Keyboard.dismiss();
             }}
             textInputProps={{accessibilityLabel: 'One-Time Password'}}
             theme={{

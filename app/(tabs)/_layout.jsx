@@ -2,7 +2,7 @@ import {Tabs} from 'expo-router';
 import React from 'react';
 import {ArtistProfileIcon, GuestProfileIcon, HostProfileIcon, ScoutIcon, SearchIcon} from "../../globals/icons";
 import {View} from "react-native";
-import HeaderTitle from "../../components/HeaderTitle";
+import HeaderTitle from "../../components/reusable/HeaderTitle";
 import Colors from "../../constants/Colors";
 import {useCouchConcertsContext} from "../../contexts/CouchConcertsContext";
 

@@ -77,7 +77,7 @@ import printInConsole from "../globals/functions/printInConsole";
 import {clearLocalStorage, fetchFromLocalStorage, storeInLocalStorage} from "../globals/functions/async-storage";
 import buildHeader from "../globals/functions/buildHeader";
 import {showErrorToast, showInfoToast, showSuccessToast} from "../globals/functions/showToast";
-import {router} from "expo-router";
+import {useRouter} from "expo-router";
 import {guestProfilePath} from "../globals/Routes";
 
 const initialState = {
@@ -190,6 +190,8 @@ export const CouchConcertsProvider = ({children}) => {
     const [authToken, setAuthToken] = useState('');
     const [isLoggedIn, setIsLoggedIn] = useState(null);
 
+    let router = useRouter();
+
     /** login stuff */
         // const [phoneNumber, setPhoneNumber] = useState('');
     const [formattedNumber, setFormattedNumber] = useState('');
@@ -255,7 +257,7 @@ export const CouchConcertsProvider = ({children}) => {
                         // }, 500);
                     }
                 } else {
-                    /** go to register page to update person */
+                    /** go to register page to create person */
                     showInfoToast({title: 'Success', description: 'GO TO REGISTER PAGE'});
                 }
                 dispatch({type: VERIFY_OTP_SUCCESS, payload: responseData});
