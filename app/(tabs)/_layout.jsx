@@ -45,7 +45,7 @@ function TabsLayout() {
                 name='explore'
                 options={{
                     title: searchTitle,
-                    headerTitle: (props) => <HeaderTitle {...props} title={searchTitle}/>,
+                    headerTitle: (props) => <HeaderTitle {...props} title={searchTitle} showAndroidBack={false}/>,
                     tabBarIcon: ({color, focused}) => <SearchIcon color={color}/>,
                 }}
             />
@@ -55,7 +55,7 @@ function TabsLayout() {
                 name='scout'
                 options={{
                     title: scoutTitle,
-                    headerTitle: (props) => <HeaderTitle {...props} title={scoutTitle}/>,
+                    headerTitle: (props) => <HeaderTitle {...props} title={scoutTitle} showAndroidBack={false}/>,
                     tabBarIcon: ({color, focused}) => <ScoutIcon color={color}/>,
                 }}
             />

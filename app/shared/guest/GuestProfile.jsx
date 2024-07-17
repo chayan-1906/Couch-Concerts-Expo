@@ -2,7 +2,7 @@ import {FlatList, Image, Text, TouchableOpacity, View} from 'react-native';
 import {MaterialIcons} from "@expo/vector-icons";
 import {useCouchConcertsContext} from "../../../contexts/CouchConcertsContext";
 import {useRouter} from "expo-router";
-import {loginPath} from "../../../globals/Routes";
+import {guestCreateEventPath, loginPath} from "../../../globals/Routes";
 import ParallaxScrollView from "../../../components/reusable/ParallaxScrollView";
 import getSignedUrl from "../../../globals/functions/getSignedUrl";
 import Loader from "../../../components/reusable/Loader";
@@ -43,13 +43,20 @@ function GuestProfile() {
             headerImage={<Image source={{uri: getSignedUrl(image)}} resizeMode={'contain'} className={'w-40 h-40 rounded-full'}/>}
             refreshOnTap={myDetailsPersonApi}
             headerContent={
-                <View className={'flex flex-col mt-4 space-y-1 items-center'}>
+                <View className={'flex flex-col mt-4 space-y-1 items-center'}   >
                     <Text className={'text-primary-foreground text-2xl font-mBold'}>{name}</Text>
                     <Text className={'text-primary-foreground font-mSemiBold'}>Following {followingCount} artists</Text>
                     <View className={'flex flex-row items-center space-x-2'}>
                         <AwardIcon color={Colors.white}/>
                         <Text className={'text-primary-foreground font-mSemiBold'}>Level: {capitalize(status)}</Text>
                     </View>
+
+                    <TouchableOpacity className={'bg-primary'} onPress={() => {
+                        logout();
+                        router.replace(loginPath());
+                    }}>
+                        <MaterialIcons name="logout" size={24} color={Colors.white}/>
+                    </TouchableOpacity>
                 </View>
             }
         >
@@ -57,7 +64,7 @@ function GuestProfile() {
                 {/** edit profile & request show buttons */}
                 <View className={'flex flex-row w-full justify-between pt-5 px-5'} style={{gap: 16}}>
                     <IconButton icon={<EditIcon color={Colors.white}/>} text={'Edit Profile'} onPress={() => null}/>
-                    <IconButton icon={<CalendarPlusIcon color={Colors.white}/>} text={'Request Show'} onPress={() => null}/>
+                    <IconButton icon={<CalendarPlusIcon color={Colors.white}/>} text={'Request Show'} onPress={() => router.push(guestCreateEventPath)}/>
                 </View>
 
                 {/** events */}
@@ -94,13 +101,6 @@ function GuestProfile() {
                     )
                 }
             </View>
-
-            <TouchableOpacity onPress={() => {
-                logout();
-                router.replace(loginPath());
-            }}>
-                <MaterialIcons name="logout" size={24} color={Colors.white}/>
-            </TouchableOpacity>
         </ParallaxScrollView>
     );
 }

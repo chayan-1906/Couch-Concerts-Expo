@@ -66,23 +66,28 @@ export const HostProfileIcon = ({color, size}) => {
     );
 }
 
-export const AndroidBackIcon = () => {
+export const AndroidBackIcon = ({color, size}) => {
     return (
         <View>
-            <Svg width={20} height={20} viewBox="0 0 20 20">
+            <Svg width={size || 24} height={size || 24} viewBox="0 0 20 20">
                 <Path
                     d="M18.7912 11.3152C19.3412 11.3152 19.7912 11.7652 19.7912 12.3152C19.7912 12.8652 19.3412 13.3152 18.7912 13.3152H7.62124L12.4912 18.2052C12.8812 18.5952 12.8812 19.2252 12.4912 19.6152C12.3044 19.8024 12.0508 19.9077 11.7862 19.9077C11.5217 19.9077 11.2681 19.8024 11.0812 19.6152L4.50124 13.0152C4.11124 12.6252 4.11124 11.9952 4.50124 11.6052L11.0912 5.01519C11.4812 4.62519 12.1112 4.62519 12.5012 5.01519C12.8912 5.40519 12.8912 6.04519 12.5012 6.43519L7.62124 11.3152H18.7912Z"
-                    fill="#122620"/>
+                    fill={color}/>
             </Svg>
         </View>
     );
 }
 
-export const IOSBackIcon = () => {
+export const IOSBackIcon = ({color, size}) => {
     return (
         <View>
-            <Svg width={20} height={20} viewBox="0 0 20 20">
-                <Path d="M15 18L9 12L15 6" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            {/*<Svg width={size || 24} height={size || 24} viewBox="0 0 20 20">
+                <Path d="M15 18L9 12L15 6" stroke={color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </Svg>*/}
+
+            <Svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 className="lucide lucide-chevron-left">
+                <Path d="m15 18-6-6 6-6"/>
             </Svg>
         </View>
     );
@@ -127,7 +132,7 @@ export const CloseIcon = ({color, size}) => {
 
 export const ChevronDownIcon = ({color, size}) => {
     return (
-        <View>
+        <View className={''}>
             <Svg width={size || 24} height={size || 24} viewBox="0 0 24 24">
                 <Path d="M7.41 8.57996L12 13.17L16.59 8.57996L18 9.99996L12 16L6 9.99996L7.41 8.57996Z" fill={color}/>
             </Svg>

@@ -31,7 +31,7 @@ function ScoutTab() {
                 {
                     !isListEmpty(artistsTrending) && (
                         <View className={'space-y-2'}>
-                            <View className={'flex flex-row justify-between items-center px-4'}>
+                            <View className={'flex flex-row justify-between items-center px-5'}>
                                 {/** category title */}
                                 <Text className={'text-2xl text-primary-foreground font-mSemiBold'}>Artists Trending</Text>
 
@@ -48,7 +48,7 @@ function ScoutTab() {
                                 renderItem={({item, index}) => <DiscoverCard artist={item}/>}
                                 horizontal
                                 showsHorizontalScrollIndicator={false}
-                                contentContainerStyle={{gap: 16, paddingHorizontal: 16}}
+                                contentContainerStyle={{gap: 16, paddingHorizontal: 20}}
                             />
                         </View>
                     )
@@ -75,7 +75,7 @@ function ScoutTab() {
                                     renderItem={({item, index}) => <DiscoverCard event={item}/>}
                                     horizontal
                                     showsHorizontalScrollIndicator={false}
-                                    contentContainerStyle={{gap: 16, paddingHorizontal: 16}}
+                                    contentContainerStyle={{gap: 16, paddingHorizontal: 20}}
                                 />
                             </View>
                         );
@@ -86,7 +86,7 @@ function ScoutTab() {
                 {
                     !isListEmpty(hostWanted) && (
                         <View className={'space-y-2'}>
-                            <View className={'flex flex-row justify-between items-center px-4'}>
+                            <View className={'flex flex-row justify-between items-center px-5'}>
                                 {/** category title */}
                                 <Text className={'text-2xl text-primary-foreground font-mSemiBold'}>Hosts Requests</Text>
 
@@ -103,7 +103,7 @@ function ScoutTab() {
                                 renderItem={({item, index}) => <DiscoverCard venueRequest={item}/>}
                                 horizontal
                                 showsHorizontalScrollIndicator={false}
-                                contentContainerStyle={{gap: 16, paddingHorizontal: 16}}
+                                contentContainerStyle={{gap: 16, paddingHorizontal: 20}}
                             />
                         </View>
                     )
@@ -113,7 +113,7 @@ function ScoutTab() {
                 {
                     !isListEmpty(venuesNearMe) && (
                         <View className={'space-y-2'}>
-                            <View className={'flex flex-row justify-between items-center px-4'}>
+                            <View className={'flex flex-row justify-between items-center px-5'}>
                                 {/** category title */}
                                 <Text className={'text-2xl text-primary-foreground font-mSemiBold'}>Hosts Near Me</Text>
 
@@ -130,7 +130,7 @@ function ScoutTab() {
                                 renderItem={({item, index}) => <DiscoverCard host={item}/>}
                                 horizontal
                                 showsHorizontalScrollIndicator={false}
-                                contentContainerStyle={{gap: 16, paddingHorizontal: 16}}
+                                contentContainerStyle={{gap: 16, paddingHorizontal: 20}}
                             />
                         </View>
                     )
